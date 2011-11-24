@@ -1,0 +1,341 @@
+Release 11.3 - platgen Xilinx EDK 11.3 Build EDK_LS3.57
+ (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc5vsx95tff1136-1 -lang vhdl -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+...
+
+Read MPD definitions ...
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:adc5g_char_b00_snapshot0_bram -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 335 - deprecated core for architecture 'virtex5sx'!
+WARNING:EDK:1582 - IPNAME:opb_bram_if_cntlr
+   INSTANCE:adc5g_char_b00_snapshot0_bram -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 335 - deprecated core for architecture 'virtex5sx'!
+
+Overriding IP level properties ...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor epb_opb_bridge_inst
+  (0000000000-0x0000ffff) sys_block_inst	opb0
+  (0x00020000-0x0002ffff) opb_adc5g_controller_0	opb0
+  (0x01000000-0x0100ffff) adc5g_char_b00_snapshot0_bram	opb0
+  (0x01010000-0x010100ff) adc5g_char_b00_snapshot0_ctrl	opb0
+  (0x01010100-0x010101ff) adc5g_char_b00_snapshot0_status	opb0
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   adc5g_char_b00_snapshot0_bram:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1560 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /export/home/blink/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_
+   10_c/data/opb_v20_v2_1_0.mpd line 74 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1
+INFO:EDK:1560 - IPNAME:opb_v20 INSTANCE:opb0 -
+   /export/home/blink/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_
+   10_c/data/opb_v20_v2_1_0.mpd line 75 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 5
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:opb_v20 INSTANCE:opb0 -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+105 - 1 master(s) : 5 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2099 - PORT:sys_clk CONNECTOR:sys_clk -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 67 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk90 CONNECTOR:sys_clk90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 68 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk180 CONNECTOR:sys_clk180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 69 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk270 CONNECTOR:sys_clk270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 70 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk_lock CONNECTOR:sys_clk_lock -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 71 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x CONNECTOR:sys_clk2x -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 72 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x90 CONNECTOR:sys_clk2x90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 73 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x180 CONNECTOR:sys_clk2x180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 74 - floating connection!
+WARNING:EDK:2099 - PORT:sys_clk2x270 CONNECTOR:sys_clk2x270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 75 - floating connection!
+WARNING:EDK:2099 - PORT:dly_clk CONNECTOR:dly_clk -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 76 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk CONNECTOR:aux0_clk -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 77 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk90 CONNECTOR:aux0_clk90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 78 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk180 CONNECTOR:aux0_clk180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 79 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk270 CONNECTOR:aux0_clk270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 80 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk CONNECTOR:aux1_clk -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 81 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk90 CONNECTOR:aux1_clk90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 82 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk180 CONNECTOR:aux1_clk180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 83 - floating connection!
+WARNING:EDK:2099 - PORT:aux1_clk270 CONNECTOR:aux1_clk270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 84 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x CONNECTOR:aux0_clk2x -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 85 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x90 CONNECTOR:aux0_clk2x90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 86 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x180 CONNECTOR:aux0_clk2x180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 87 - floating connection!
+WARNING:EDK:2099 - PORT:aux0_clk2x270 CONNECTOR:aux0_clk2x270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 88 - floating connection!
+WARNING:EDK:2099 - PORT:idelay_rdy CONNECTOR:idelay_rdy -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 91 - floating connection!
+WARNING:EDK:2099 - PORT:soft_reset CONNECTOR:soft_reset -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 173 - floating connection!
+WARNING:EDK:2099 - PORT:ctrl_clk90_out CONNECTOR:adc0_clk90 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 296 - floating connection!
+WARNING:EDK:2099 - PORT:ctrl_clk180_out CONNECTOR:adc0_clk180 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 297 - floating connection!
+WARNING:EDK:2099 - PORT:ctrl_clk270_out CONNECTOR:adc0_clk270 -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 298 - floating connection!
+WARNING:EDK:2099 - PORT:ctrl_dcm_locked CONNECTOR:adc0_dcm_locked -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 299 - floating connection!
+
+Performing Clock DRCs...
+INFO:EDK:1038 - Did not implement clock DRCs for parameter:
+   adc5g_char_b00_snapshot0_bram:c_opb_clk_period_ps. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+Release 11.3 - Xilinx CORE Generator L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/implementation/a
+dc5g_char_b00_snapshot0_bram_ramblk_wrapper/coregen.log
+Regenerating IP...
+XST: HDL Compilation
+XST: Design Hierarchy Analysis
+XST: HDL Analysis
+XST: HDL Synthesis
+XST: Advanced HDL Synthesis
+XST: Low Level Synthesis
+XST: Partition Report
+XST: Final Report
+Generating Implementation files.
+Generating NGC file.
+
+Command Line: /export/home/blink/Xilinx/11.1/ISE/bin/lin64/unwrapped/ngcbuild
+-intstyle ise -dd ./tmp/_cg ./tmp/_cg/bram.edn ./tmp/_cg/bram_unobf.ngc
+
+Executing edif2ngd -noa "tmp/_cg/bram.edn" "tmp/_cg/bram.ngo"
+Release 11.3 - edif2ngd L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 11.3 edif2ngd L.57 (lin64)
+INFO:NgdBuild - Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Writing module to "tmp/_cg/bram.ngo"...
+Reading NGO file
+"/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/implementation/
+adc5g_char_b00_snapshot0_bram_ramblk_wrapper/tmp/_cg/bram.ngo" ...
+Loading design module "./tmp/_cg/bram_blk_mem_gen_v2_6_xst_1.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "./tmp/_cg/bram_unobf.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "./tmp/_cg/bram_unobf.blc"...
+
+NGCBUILD done.
+Finished Regenerating.
+Generating ISE file...
+Finished ISE file generation.
+Generating FLIST file...
+Finished FLIST file generation.
+Preparing output directory...
+Finished preparing output directory.
+Moving files to output directory...
+Finished moving files to output directory.
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:adc5g_char_b00 INSTANCE:adc5g_char_b00_xsg_core_config -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+217 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:adc5g_char_b00_snapshot0_bram_ramblk -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+320 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:infrastructure_inst -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+54 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+94 - Running XST synthesis
+INSTANCE:opb0 -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+105 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+114 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+133 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+158 - Running XST synthesis
+INSTANCE:opb_adc5g_controller_0 -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+185 - Running XST synthesis
+INSTANCE:adc5g_char_b00_xsg_core_config -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+217 - Running XST synthesis
+INSTANCE:adc5g_char_b00_asiaa_adc5g -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+254 - Running XST synthesis
+INSTANCE:adc5g_char_b00_snapshot0_bram_ramblk -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+320 - Running XST synthesis
+INSTANCE:adc5g_char_b00_snapshot0_bram -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+335 - Running XST synthesis
+INSTANCE:adc5g_char_b00_snapshot0_ctrl -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+347 - Running XST synthesis
+INSTANCE:adc5g_char_b00_snapshot0_status -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+359 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:adc5g_char_b00_xsg_core_config_wrapper
+INSTANCE:adc5g_char_b00_xsg_core_config -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+217 - Running NGCBUILD
+IPNAME:adc5g_char_b00_snapshot0_bram_ramblk_wrapper
+INSTANCE:adc5g_char_b00_snapshot0_bram_ramblk -
+/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs line
+320 - Running NGCBUILD
+
+Rebuilding cache ...
+
+Total run time: 127.00 seconds

@@ -1,0 +1,1 @@
+/export/home/blink/Xilinx/11.1/DSP_Tools/lin64/sysgen/bin/saferun -a /export/home/blink/scratch/models/adc5g_char_b00/sysgen/adc5g_char_b00_cw_import.log -- /export/home/blink/Xilinx/11.1/ISE/bin/lin64/xtclsh adc5g_char_b00_cw_import.tcl

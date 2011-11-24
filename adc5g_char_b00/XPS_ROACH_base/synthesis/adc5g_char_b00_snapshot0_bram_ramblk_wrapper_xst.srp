@@ -1,0 +1,375 @@
+Release 11.3 - xst L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </export/home/blink/Xilinx/11.1/EDK/virtex5/data/virtex5.acd> with local file </export/home/blink/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "adc5g_char_b00_snapshot0_bram_ramblk_wrapper_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : adc5g_char_b00_snapshot0_bram_ramblk_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/adc5g_char_b00_snapshot0_bram_ramblk_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v" in library bram_block_custom_v1_00_a
+Compiling verilog file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v" in library bram_block_custom_v1_00_a
+Module <bram_block_custom> compiled
+Module <bram> compiled
+No errors in compilation
+Analysis of file <"adc5g_char_b00_snapshot0_bram_ramblk_wrapper_xst.prj"> succeeded.
+ 
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.vhd" in Library work.
+Entity <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> compiled.
+Entity <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for module <bram_block_custom> in library <bram_block_custom_v1_00_a> with parameters.
+	C_PORTA_AWIDTH = "00000000000000000000000000100000"
+	C_PORTA_DEPTH = "00000000000000000000000000001100"
+	C_PORTA_DWIDTH = "00000000000000000000000010000000"
+	C_PORTA_NUM_WE = "00000000000000000000000000010000"
+	C_PORTB_AWIDTH = "00000000000000000000000000100000"
+	C_PORTB_DEPTH = "00000000000000000000000000001110"
+	C_PORTB_DWIDTH = "00000000000000000000000000100000"
+	C_PORTB_NUM_WE = "00000000000000000000000000000100"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> analyzed. Unit <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> generated.
+
+Analyzing module <bram_block_custom> in library <bram_block_custom_v1_00_a>.
+	C_PORTA_AWIDTH = 32'sb00000000000000000000000000100000
+	C_PORTA_DEPTH = 32'sb00000000000000000000000000001100
+	C_PORTA_DWIDTH = 32'sb00000000000000000000000010000000
+	C_PORTA_NUM_WE = 32'sb00000000000000000000000000010000
+	C_PORTB_AWIDTH = 32'sb00000000000000000000000000100000
+	C_PORTB_DEPTH = 32'sb00000000000000000000000000001110
+	C_PORTB_DWIDTH = 32'sb00000000000000000000000000100000
+	C_PORTB_NUM_WE = 32'sb00000000000000000000000000000100
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v" line 50: Instantiating black box module <bram>.
+Module <bram_block_custom> is correct for synthesis.
+ 
+    Set user-defined property "AW_A =  0000000C" for instance <bram_inst> in unit <bram_block_custom>.
+    Set user-defined property "AW_B =  0000000E" for instance <bram_inst> in unit <bram_block_custom>.
+    Set user-defined property "DW_A =  00000080" for instance <bram_inst> in unit <bram_block_custom>.
+    Set user-defined property "DW_B =  00000020" for instance <bram_inst> in unit <bram_block_custom>.
+    Set user-defined property "WE_A =  00000010" for instance <bram_inst> in unit <bram_block_custom>.
+    Set user-defined property "WE_B =  00000004" for instance <bram_inst> in unit <bram_block_custom>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <bram_block_custom>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v".
+WARNING:Xst:647 - Input <BRAM_Addr_B<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Rst_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_EN_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <addrb<31:14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <bram_block_custom> synthesized.
+
+
+Synthesizing Unit <adc5g_char_b00_snapshot0_bram_ramblk_wrapper>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.vhd".
+Unit <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/adc5g_char_b00_snapshot0_bram_ramblk_wrapper/bram.ngc>.
+Loading core <bram> for timing and area information for instance <bram_inst>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 373
+
+Cell Usage :
+# BELS                             : 170
+#      GND                         : 1
+#      LUT2                        : 8
+#      LUT6                        : 160
+#      VCC                         : 1
+# FlipFlops/Latches                : 4
+#      FDE                         : 4
+# RAMS                             : 16
+#      RAMB36_EXP                  : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               4  out of  58880     0%  
+ Number of Slice LUTs:                  168  out of  58880     0%  
+    Number used as Logic:               168  out of  58880     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    170
+   Number with an unused Flip Flop:     166  out of    170    97%  
+   Number with an unused LUT:             2  out of    170     1%  
+   Number of fully used LUT-FF pairs:     2  out of    170     1%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                         373
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               16  out of    244     6%  
+    Number using Block RAM only:         16
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                          | Load  |
+-----------------------------------+----------------------------------------------------------------------------------------------------------------+-------+
+BRAM_Clk_B                         | NONE(adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/has_mux_b.B/sel_pipe_0)| 18    |
+clk                                | NONE(adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/has_mux_a.A/sel_pipe_0)| 18    |
+-----------------------------------+----------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                          | Buffer(FF name)                                                                                                                                  | Load  |
+------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/dbiterr(adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/XST_GND:G)| NONE(adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP)| 128   |
+------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.122ns
+   Maximum output required time after clock: 3.257ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_B'
+  Total number of paths / destination ports: 706 / 674
+-------------------------------------------------------------------------
+Offset:              1.122ns (Levels of Logic = 2)
+  Source:            BRAM_Addr_B<17> (PAD)
+  Destination:       adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (RAM)
+  Destination Clock: BRAM_Clk_B rising
+
+  Data Path: BRAM_Addr_B<17> to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'adc5g_char_b00_snapshot0_bram_ramblk/bram_inst'
+     begin scope: 'BU2'
+     LUT2:I0->O            8   0.094   0.374  U0/blk_mem_generator/valid.cstr/bindec_b.bindec_inst_b/enout_3_cmp_eq00001 (U0/blk_mem_generator/valid.cstr/bindec_b.bindec_inst_b/enout_3_cmp_eq0000)
+     RAMB36_EXP:ENBU           0.414          U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP
+    ----------------------------------------
+    Total                      1.122ns (0.748ns logic, 0.374ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1026 / 994
+-------------------------------------------------------------------------
+Offset:              1.122ns (Levels of Logic = 2)
+  Source:            bram_addr<10> (PAD)
+  Destination:       adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (RAM)
+  Destination Clock: clk rising
+
+  Data Path: bram_addr<10> to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'adc5g_char_b00_snapshot0_bram_ramblk/bram_inst'
+     begin scope: 'BU2'
+     LUT2:I0->O            8   0.094   0.374  U0/blk_mem_generator/valid.cstr/bindec_a.bindec_inst_a/enout_3_cmp_eq00001 (U0/blk_mem_generator/valid.cstr/bindec_a.bindec_inst_a/enout_3_cmp_eq0000)
+     RAMB36_EXP:ENAU           0.414          U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP
+    ----------------------------------------
+    Total                      1.122ns (0.748ns logic, 0.374ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'BRAM_Clk_B'
+  Total number of paths / destination ports: 192 / 32
+-------------------------------------------------------------------------
+Offset:              3.257ns (Levels of Logic = 2)
+  Source:            adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (RAM)
+  Destination:       BRAM_Din_B<0> (PAD)
+  Source Clock:      BRAM_Clk_B rising
+
+  Data Path: adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP to BRAM_Din_B<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB36_EXP:REGCLKBU->DOB7    1   2.190   0.973  U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (U0/blk_mem_generator/valid.cstr/ram_doutb14<7>)
+     LUT6:I1->O            0   0.094   0.000  U0/blk_mem_generator/valid.cstr/has_mux_b.B/dout_mux<31>1 (doutb(31))
+     end scope: 'BU2'
+     end scope: 'adc5g_char_b00_snapshot0_bram_ramblk/bram_inst'
+    ----------------------------------------
+    Total                      3.257ns (2.284ns logic, 0.973ns route)
+                                       (70.1% logic, 29.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 768 / 128
+-------------------------------------------------------------------------
+Offset:              3.247ns (Levels of Logic = 2)
+  Source:            adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (RAM)
+  Destination:       bram_rd_data<127> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP to bram_rd_data<127>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB36_EXP:REGCLKAU->DOA31    1   2.180   0.973  U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP (U0/blk_mem_generator/valid.cstr/ram_douta14<31>)
+     LUT6:I1->O            0   0.094   0.000  U0/blk_mem_generator/valid.cstr/has_mux_a.A/dout_mux<127>1 (douta(127))
+     end scope: 'BU2'
+     end scope: 'adc5g_char_b00_snapshot0_bram_ramblk/bram_inst'
+    ----------------------------------------
+    Total                      3.247ns (2.274ns logic, 0.973ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "AW_A 0000000C": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+WARNING:Xst:616 - Invalid property "AW_B 0000000E": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+WARNING:Xst:616 - Invalid property "DW_A 00000080": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+WARNING:Xst:616 - Invalid property "DW_B 00000020": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+WARNING:Xst:616 - Invalid property "WE_A 00000010": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+WARNING:Xst:616 - Invalid property "WE_B 00000004": Did not attach to adc5g_char_b00_snapshot0_bram_ramblk/bram_inst.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.17 secs
+ 
+--> 
+
+
+Total memory usage is 456960 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

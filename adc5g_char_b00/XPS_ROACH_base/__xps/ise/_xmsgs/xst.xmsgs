@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk90</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk180</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk270</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk_lock</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk2x</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk2x90</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk2x180</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sys_clk2x270</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">dly_clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk90</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk180</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk270</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux1_clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux1_clk90</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux1_clk180</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux1_clk270</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk2x</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk2x90</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk2x180</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">aux0_clk2x270</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">545</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">idelay_rdy</arg>&apos; of component &apos;<arg fmt="%s" index="4">infrastructure_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_MRequest</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_beXfer</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_beAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_busLock</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_rdDBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_wrDBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_dwAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_dwXfer</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_fwAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_fwXfer</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_hwAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_hwXfer</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_pendReq</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">591</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OPB_toutSup</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">705</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">soft_reset</arg>&apos; of component &apos;<arg fmt="%s" index="4">sys_block_inst_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_adc3wire_clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_adc3wire_data</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_adc3wire_spi_rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_modepin</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_dcm_reset</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_psclk</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_psen</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">726</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc1_psincdec</arg>&apos; of component &apos;<arg fmt="%s" index="4">opb_adc5g_controller_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">791</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">adc_reset_o</arg>&apos; of component &apos;<arg fmt="%s" index="4">adc5g_char_b00_asiaa_adc5g_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">791</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ctrl_clk90_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">adc5g_char_b00_asiaa_adc5g_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">791</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ctrl_clk180_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">adc5g_char_b00_asiaa_adc5g_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">791</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ctrl_clk270_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">adc5g_char_b00_asiaa_adc5g_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">791</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ctrl_dcm_locked</arg>&apos; of component &apos;<arg fmt="%s" index="4">adc5g_char_b00_asiaa_adc5g_wrapper</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

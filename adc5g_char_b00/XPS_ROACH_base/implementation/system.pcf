@@ -1,0 +1,1247 @@
+//! **************************************************************************
+// Written by: Map L.57 on Wed Nov 16 16:40:24 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "epb_rdy" LOCATE = SITE "K12" LEVEL 1;
+COMP "adc0data2_n_i<0>" LOCATE = SITE "K34" LEVEL 1;
+COMP "adc0data2_n_i<1>" LOCATE = SITE "K32" LEVEL 1;
+COMP "adc0data2_n_i<2>" LOCATE = SITE "H33" LEVEL 1;
+COMP "adc0data2_n_i<3>" LOCATE = SITE "K26" LEVEL 1;
+COMP "adc0data2_n_i<4>" LOCATE = SITE "G31" LEVEL 1;
+COMP "adc0data2_n_i<5>" LOCATE = SITE "J25" LEVEL 1;
+COMP "adc0data2_n_i<6>" LOCATE = SITE "H27" LEVEL 1;
+COMP "adc0data2_n_i<7>" LOCATE = SITE "G26" LEVEL 1;
+COMP "epb_cs_n" LOCATE = SITE "K13" LEVEL 1;
+COMP "adc0data2_p_i<0>" LOCATE = SITE "L34" LEVEL 1;
+COMP "adc0data2_p_i<1>" LOCATE = SITE "K33" LEVEL 1;
+COMP "adc0data2_p_i<2>" LOCATE = SITE "J32" LEVEL 1;
+COMP "adc0data2_p_i<3>" LOCATE = SITE "K27" LEVEL 1;
+COMP "epb_oe_n" LOCATE = SITE "AF21" LEVEL 1;
+COMP "adc0data2_p_i<4>" LOCATE = SITE "H30" LEVEL 1;
+COMP "adc0data2_p_i<5>" LOCATE = SITE "J24" LEVEL 1;
+COMP "adc0data2_p_i<6>" LOCATE = SITE "G27" LEVEL 1;
+COMP "adc0data2_p_i<7>" LOCATE = SITE "G25" LEVEL 1;
+COMP "adc0data3_n_i<0>" LOCATE = SITE "M30" LEVEL 1;
+COMP "adc0data3_n_i<1>" LOCATE = SITE "L31" LEVEL 1;
+COMP "adc0data3_n_i<2>" LOCATE = SITE "J34" LEVEL 1;
+COMP "adc0data3_n_i<3>" LOCATE = SITE "J26" LEVEL 1;
+COMP "adc0data3_n_i<4>" LOCATE = SITE "H32" LEVEL 1;
+COMP "adc0data3_n_i<5>" LOCATE = SITE "E34" LEVEL 1;
+COMP "adc0data3_n_i<6>" LOCATE = SITE "E33" LEVEL 1;
+COMP "adc0data3_n_i<7>" LOCATE = SITE "F26" LEVEL 1;
+COMP "adc0data3_p_i<0>" LOCATE = SITE "L30" LEVEL 1;
+COMP "adc0data3_p_i<1>" LOCATE = SITE "K31" LEVEL 1;
+COMP "ppc_irq_n" LOCATE = SITE "G23" LEVEL 1;
+COMP "adc0data3_p_i<2>" LOCATE = SITE "H34" LEVEL 1;
+COMP "adc0data3_p_i<3>" LOCATE = SITE "J27" LEVEL 1;
+COMP "adc0data3_p_i<4>" LOCATE = SITE "G32" LEVEL 1;
+COMP "adc0data3_p_i<5>" LOCATE = SITE "F33" LEVEL 1;
+COMP "adc0data3_p_i<6>" LOCATE = SITE "E32" LEVEL 1;
+COMP "adc0data3_p_i<7>" LOCATE = SITE "F25" LEVEL 1;
+COMP "adc0clk_n" LOCATE = SITE "H20" LEVEL 1;
+COMP "adc0clk_p" LOCATE = SITE "H19" LEVEL 1;
+COMP "epb_data<10>" LOCATE = SITE "AH12" LEVEL 1;
+COMP "epb_data<11>" LOCATE = SITE "AG13" LEVEL 1;
+COMP "epb_data<12>" LOCATE = SITE "AH20" LEVEL 1;
+COMP "epb_data<13>" LOCATE = SITE "AH19" LEVEL 1;
+COMP "epb_data<14>" LOCATE = SITE "AH14" LEVEL 1;
+COMP "epb_data<15>" LOCATE = SITE "AH13" LEVEL 1;
+COMP "epb_r_w_n" LOCATE = SITE "AF20" LEVEL 1;
+COMP "adc0_modepin" LOCATE = SITE "E28" LEVEL 1;
+COMP "epb_addr_gp<0>" LOCATE = SITE "L21" LEVEL 1;
+COMP "epb_addr_gp<1>" LOCATE = SITE "G22" LEVEL 1;
+COMP "epb_addr_gp<2>" LOCATE = SITE "K23" LEVEL 1;
+COMP "epb_be_n<0>" LOCATE = SITE "AF14" LEVEL 1;
+COMP "epb_be_n<1>" LOCATE = SITE "AF18" LEVEL 1;
+COMP "epb_addr<0>" LOCATE = SITE "AE23" LEVEL 1;
+COMP "epb_addr<1>" LOCATE = SITE "AE22" LEVEL 1;
+COMP "epb_addr<2>" LOCATE = SITE "AG18" LEVEL 1;
+COMP "epb_addr<3>" LOCATE = SITE "AG12" LEVEL 1;
+COMP "epb_addr<4>" LOCATE = SITE "AG15" LEVEL 1;
+COMP "epb_addr<5>" LOCATE = SITE "AG23" LEVEL 1;
+COMP "epb_addr<6>" LOCATE = SITE "AF19" LEVEL 1;
+COMP "epb_addr<7>" LOCATE = SITE "AE12" LEVEL 1;
+COMP "epb_addr<8>" LOCATE = SITE "AG16" LEVEL 1;
+COMP "epb_addr<9>" LOCATE = SITE "AF13" LEVEL 1;
+COMP "epb_clk_in" LOCATE = SITE "AH18" LEVEL 1;
+COMP "adc0_adc3wire_data" LOCATE = SITE "C32" LEVEL 1;
+COMP "epb_data<0>" LOCATE = SITE "AF15" LEVEL 1;
+COMP "epb_data<1>" LOCATE = SITE "AE16" LEVEL 1;
+COMP "epb_data<2>" LOCATE = SITE "AE21" LEVEL 1;
+COMP "epb_data<3>" LOCATE = SITE "AD20" LEVEL 1;
+COMP "epb_data<4>" LOCATE = SITE "AF16" LEVEL 1;
+COMP "epb_data<5>" LOCATE = SITE "AE17" LEVEL 1;
+COMP "epb_data<6>" LOCATE = SITE "AE19" LEVEL 1;
+COMP "epb_data<7>" LOCATE = SITE "AD19" LEVEL 1;
+COMP "epb_data<8>" LOCATE = SITE "AG22" LEVEL 1;
+COMP "epb_data<9>" LOCATE = SITE "AH22" LEVEL 1;
+COMP "adc0_adc3wire_spi_rst" LOCATE = SITE "C34" LEVEL 1;
+COMP "adc0_adc3wire_clk" LOCATE = SITE "F28" LEVEL 1;
+COMP "adc0data0_n_i<0>" LOCATE = SITE "N30" LEVEL 1;
+COMP "adc0data0_n_i<1>" LOCATE = SITE "N28" LEVEL 1;
+COMP "adc0data0_n_i<2>" LOCATE = SITE "M26" LEVEL 1;
+COMP "adc0data0_n_i<3>" LOCATE = SITE "L28" LEVEL 1;
+COMP "adc0data0_n_i<4>" LOCATE = SITE "L24" LEVEL 1;
+COMP "adc0data0_n_i<5>" LOCATE = SITE "J29" LEVEL 1;
+COMP "adc0data0_n_i<6>" LOCATE = SITE "G28" LEVEL 1;
+COMP "adc0data0_n_i<7>" LOCATE = SITE "E31" LEVEL 1;
+COMP "adc0data0_p_i<0>" LOCATE = SITE "M31" LEVEL 1;
+COMP "adc0data0_p_i<1>" LOCATE = SITE "M28" LEVEL 1;
+COMP "adc0data0_p_i<2>" LOCATE = SITE "M25" LEVEL 1;
+COMP "adc0data0_p_i<3>" LOCATE = SITE "K28" LEVEL 1;
+COMP "adc0data0_p_i<4>" LOCATE = SITE "K24" LEVEL 1;
+COMP "adc0data0_p_i<5>" LOCATE = SITE "H29" LEVEL 1;
+COMP "adc0data0_p_i<6>" LOCATE = SITE "H28" LEVEL 1;
+COMP "adc0data0_p_i<7>" LOCATE = SITE "F31" LEVEL 1;
+COMP "dly_clk_n" LOCATE = SITE "J17" LEVEL 1;
+COMP "dly_clk_p" LOCATE = SITE "J16" LEVEL 1;
+COMP "adc0data1_n_i<0>" LOCATE = SITE "M27" LEVEL 1;
+COMP "adc0data1_n_i<1>" LOCATE = SITE "K29" LEVEL 1;
+COMP "adc0data1_n_i<2>" LOCATE = SITE "L26" LEVEL 1;
+COMP "adc0data1_n_i<3>" LOCATE = SITE "J31" LEVEL 1;
+COMP "adc0data1_n_i<4>" LOCATE = SITE "F34" LEVEL 1;
+COMP "adc0data1_n_i<5>" LOCATE = SITE "F30" LEVEL 1;
+COMP "adc0data1_n_i<6>" LOCATE = SITE "H24" LEVEL 1;
+COMP "adc0data1_n_i<7>" LOCATE = SITE "F29" LEVEL 1;
+COMP "epb_addr<10>" LOCATE = SITE "AG20" LEVEL 1;
+COMP "epb_addr<11>" LOCATE = SITE "AF23" LEVEL 1;
+COMP "epb_addr<20>" LOCATE = SITE "K21" LEVEL 1;
+COMP "epb_addr<12>" LOCATE = SITE "AH17" LEVEL 1;
+COMP "epb_addr<21>" LOCATE = SITE "K16" LEVEL 1;
+COMP "epb_addr<13>" LOCATE = SITE "AH15" LEVEL 1;
+COMP "epb_addr<22>" LOCATE = SITE "J15" LEVEL 1;
+COMP "epb_addr<14>" LOCATE = SITE "L20" LEVEL 1;
+COMP "epb_addr<15>" LOCATE = SITE "J22" LEVEL 1;
+COMP "epb_addr<16>" LOCATE = SITE "H22" LEVEL 1;
+COMP "epb_addr<17>" LOCATE = SITE "L15" LEVEL 1;
+COMP "epb_addr<18>" LOCATE = SITE "L16" LEVEL 1;
+COMP "epb_addr<19>" LOCATE = SITE "K22" LEVEL 1;
+COMP "adc0data1_p_i<0>" LOCATE = SITE "N27" LEVEL 1;
+COMP "adc0data1_p_i<1>" LOCATE = SITE "L29" LEVEL 1;
+COMP "adc0data1_p_i<2>" LOCATE = SITE "L25" LEVEL 1;
+COMP "adc0data1_p_i<3>" LOCATE = SITE "J30" LEVEL 1;
+COMP "adc0data1_p_i<4>" LOCATE = SITE "G33" LEVEL 1;
+COMP "adc0data1_p_i<5>" LOCATE = SITE "G30" LEVEL 1;
+COMP "adc0data1_p_i<6>" LOCATE = SITE "H25" LEVEL 1;
+COMP "adc0data1_p_i<7>" LOCATE = SITE "E29" LEVEL 1;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBL;
+PIN
+        adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>
+        = BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP"
+        PINNAME CLKBU;
+TIMEGRP epb_clk = BEL "reset_block_inst/reset_block_inst/width_counter_31" BEL
+        "reset_block_inst/reset_block_inst/width_counter_30" BEL
+        "reset_block_inst/reset_block_inst/width_counter_29" BEL
+        "reset_block_inst/reset_block_inst/width_counter_28" BEL
+        "reset_block_inst/reset_block_inst/width_counter_27" BEL
+        "reset_block_inst/reset_block_inst/width_counter_26" BEL
+        "reset_block_inst/reset_block_inst/width_counter_25" BEL
+        "reset_block_inst/reset_block_inst/width_counter_24" BEL
+        "reset_block_inst/reset_block_inst/width_counter_23" BEL
+        "reset_block_inst/reset_block_inst/width_counter_22" BEL
+        "reset_block_inst/reset_block_inst/width_counter_21" BEL
+        "reset_block_inst/reset_block_inst/width_counter_20" BEL
+        "reset_block_inst/reset_block_inst/width_counter_19" BEL
+        "reset_block_inst/reset_block_inst/width_counter_18" BEL
+        "reset_block_inst/reset_block_inst/width_counter_17" BEL
+        "reset_block_inst/reset_block_inst/width_counter_16" BEL
+        "reset_block_inst/reset_block_inst/width_counter_15" BEL
+        "reset_block_inst/reset_block_inst/width_counter_14" BEL
+        "reset_block_inst/reset_block_inst/width_counter_13" BEL
+        "reset_block_inst/reset_block_inst/width_counter_12" BEL
+        "reset_block_inst/reset_block_inst/width_counter_11" BEL
+        "reset_block_inst/reset_block_inst/width_counter_10" BEL
+        "reset_block_inst/reset_block_inst/width_counter_9" BEL
+        "reset_block_inst/reset_block_inst/width_counter_8" BEL
+        "reset_block_inst/reset_block_inst/width_counter_7" BEL
+        "reset_block_inst/reset_block_inst/width_counter_6" BEL
+        "reset_block_inst/reset_block_inst/width_counter_5" BEL
+        "reset_block_inst/reset_block_inst/width_counter_4" BEL
+        "reset_block_inst/reset_block_inst/width_counter_3" BEL
+        "reset_block_inst/reset_block_inst/width_counter_2" BEL
+        "reset_block_inst/reset_block_inst/width_counter_1" BEL
+        "reset_block_inst/reset_block_inst/width_counter_0" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_31" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_30" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_29" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_28" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_27" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_26" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_25" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_24" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_23" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_22" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_21" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_20" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_19" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_18" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_17" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_16" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_15" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_14" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_13" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_12" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_11" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_10" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_9" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_8" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_7" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_6" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_5" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_4" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_3" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_2" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_1" BEL
+        "reset_block_inst/reset_block_inst/delay_counter_0" BEL
+        "reset_block_inst/reset_block_inst/reset_o" BEL
+        "opb0/opb0/POR_SRL_I/SRL16E" BEL "opb0/opb0/POR_FF_I" BEL
+        "opb0/opb0/OPB_ARBITER_I/OPB_ARBITER_CORE_I/WATCHDOG_TIMER_I/timeout_cnt_0"
+        BEL
+        "opb0/opb0/OPB_ARBITER_I/OPB_ARBITER_CORE_I/WATCHDOG_TIMER_I/timeout_cnt_1"
+        BEL
+        "opb0/opb0/OPB_ARBITER_I/OPB_ARBITER_CORE_I/WATCHDOG_TIMER_I/timeout_cnt_2"
+        BEL
+        "opb0/opb0/OPB_ARBITER_I/OPB_ARBITER_CORE_I/WATCHDOG_TIMER_I/timeout_cnt_3"
+        BEL
+        "opb0/opb0/OPB_ARBITER_I/OPB_ARBITER_CORE_I/WATCHDOG_TIMER_I/OPB_timeout"
+        BEL "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_10" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_9" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_8" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_7" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_6" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_5" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_4" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_3" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/timeout_counter_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_rdy" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_15" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_14" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_13" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_12" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_11" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_10" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_9" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_8" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_7" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_6" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_5" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_4" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_3" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/prev_cs_n" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_15" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_14" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_13" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_12" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_11" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_10" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_9" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_8" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_7" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_6" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_5" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_4" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_3" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_o_reg_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/M_select_reg" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_15" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_14" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_13" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_12" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_11" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_10" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_9" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_8" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_7" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_6" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_5" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_4" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_3" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_data_i_reg_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_gp_reg_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_gp_reg_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_gp_reg_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_22" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_21" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_20" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_19" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_18" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_17" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_16" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_15" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_14" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_13" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_12" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_11" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_10" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_9" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_8" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_7" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_6" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_5" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_4" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_3" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_2" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_be_n_reg_1" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_be_n_reg_0" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_r_w_n_reg" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_oe_n_reg" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_cs_n_reg" BEL
+        "epb_opb_bridge_inst/epb_opb_bridge_inst/epb_rdy_reg" BEL
+        "sys_block_inst/sys_block_inst/latch_state_FSM_FFd2" BEL
+        "sys_block_inst/sys_block_inst/latch_state_FSM_FFd1" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_0" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_1" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_2" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_3" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_4" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_5" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_6" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_7" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_8" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_9" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_10" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_11" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_12" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_13" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_14" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_15" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_16" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_17" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_18" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_19" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_20" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_21" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_22" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_23" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_24" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_25" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_26" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_27" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_28" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_29" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_30" BEL
+        "sys_block_inst/sys_block_inst/fab_clk_counter_latched_31" BEL
+        "sys_block_inst/sys_block_inst/bus_wait" BEL
+        "sys_block_inst/sys_block_inst/latch_start" BEL
+        "sys_block_inst/sys_block_inst/soft_reset" BEL
+        "sys_block_inst/sys_block_inst/Sl_xferAck" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_30" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_29" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_31" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_27" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_26" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_28" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_24" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_23" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_25" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_21" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_20" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_22" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_18" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_17" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_19" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_15" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_14" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_16" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_12" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_11" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_13" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_9" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_8" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_10" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_6" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_5" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_7" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_3" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_2" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_4" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_0" BEL
+        "sys_block_inst/sys_block_inst/scratch_pad_1" BEL
+        "sys_block_inst/sys_block_inst/Mshreg_val_gotRR" BEL
+        "sys_block_inst/sys_block_inst/val_gotRR" BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clear_wait_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clear_wait_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/conf_state_FSM_FFd6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/conf_state_FSM_FFd5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/conf_state_FSM_FFd4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/conf_state_FSM_FFd6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/conf_state_FSM_FFd5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/conf_state_FSM_FFd4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/bus2ip_cs_hit_s0_d1_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/last_xferack_d1_s0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/bus2ip_cs_hit_s0_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/last_xferack_d1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/last_pw_xferack_d1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_xferack_s1_d2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_10"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_11"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_12"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_13"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_14"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_15"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_20"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_21"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_22"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_dbus_s0_23"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_select_s0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_rnw_s0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_28"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_abus_s0_29"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_be_s0_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_be_s0_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/opb_be_s0_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_xferack_s2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_xferack_s1_d1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/postedwrack_s2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/new_pw_s0_d1_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_10"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_11"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_12"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_13"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_14"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_15"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_20"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_21"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_22"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_23"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/OPB_IPIF_I/OPB_BAM_I/sln_dbus_s2_31"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_3wire_request_int"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_3wire_request_int"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_progress_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_progress_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_progress_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_progress_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_progress_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_10"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_11"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_12"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_13"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_14"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_15"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_16"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_17"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_18"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_19"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_20"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_21"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_22"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_23"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_state_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_state_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/xfer_state_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_progress_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_progress_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_progress_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_progress_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_progress_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_state_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_state_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/xfer_state_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_13"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_12"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_modepin_int"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_11"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_10"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_15"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_13"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_12"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_14"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_11"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_10"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_modepin_int"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_address_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_address_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_address_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_9"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_address_0"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_address_1"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_address_2"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_8"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_15"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_6"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_data_7"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_14"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_data_5"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/shift_register_3"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_0/clk_counter_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/adc_config_mux_1/clk_counter_4"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/Mshreg_adc1_adc0_sample_RR"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc1_adc0_sample_RR"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/Mshreg_adc0_adc1_sample_RR"
+        BEL
+        "opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/adc0_adc1_sample_RR"
+        BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/has_mux_b.B/sel_pipe_0"
+        BEL
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/has_mux_b.B/sel_pipe_1"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/postedwrack_s2"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_xferack_s2"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_0"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_1"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_2"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_3"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_4"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_5"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_6"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_7"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_8"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_9"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_10"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_11"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_12"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_13"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_14"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_15"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_16"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_17"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_18"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_19"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_20"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_21"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_22"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_23"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_24"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_25"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_26"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_27"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_28"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_29"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_30"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_dbus_s2_31"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/I_opb_ipif/OPB_BAM_I/sln_xferack_s1_d1"
+        BEL
+        "adc5g_char_b00_snapshot0_bram/adc5g_char_b00_snapshot0_bram/ip2bus_rdack"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/register_ready"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/Sl_xferAck_reg"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_0"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_2"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_3"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_1"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_4"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_5"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_7"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_8"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_6"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_10"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_11"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_9"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_13"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_14"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_12"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_15"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_16"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_18"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_19"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_17"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_20"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_21"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_23"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_24"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_22"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_25"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_26"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_28"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_29"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_27"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_31"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/reg_buffer_30"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/Mshreg_register_doneRR"
+        BEL
+        "adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/register_doneRR"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/Sl_xferAck_reg"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/buf_lock"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_31"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_30"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_29"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_28"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_27"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_26"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_25"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_24"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_23"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_22"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_21"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_20"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_19"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_18"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_17"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_16"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_15"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_14"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_13"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_12"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_11"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_10"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_9"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_8"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_7"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_6"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_5"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_4"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_3"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_2"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_1"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_buffer_0"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_request"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/Mshreg_register_readyRR"
+        BEL
+        "adc5g_char_b00_snapshot0_status/adc5g_char_b00_snapshot0_status/register_readyRR"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[10].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[12].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[13].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[15].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[3].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[4].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[7].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[8].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<64>"
+        PIN
+        "adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[9].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP_pins<65>";
+NET "epb_cs_n_IBUF" MAXDELAY = 4 ns;
+NET "adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/adc_clk" PERIOD =
+        2.6667 ns HIGH 50%;
+NET "adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/adc_clk" PERIOD =
+        2.6667 ns HIGH 50%;
+TS_epb_clk = PERIOD TIMEGRP "epb_clk" 88 MHz HIGH 50%;
+SCHEMATIC END;
+

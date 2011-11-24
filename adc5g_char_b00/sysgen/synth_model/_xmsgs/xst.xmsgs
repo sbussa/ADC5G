@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">preserve_signal</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">3772</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">up</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">3772</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">load</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">3772</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">din</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1663</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">FDE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1893</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdse</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">up</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">load</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">din</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlcounter_free</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">op_mem_91_20(0)</arg>&gt; in unit &lt;<arg fmt="%s" index="2">addsub_c13097e33e</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">cout_mem_92_22(0)</arg>&gt; in unit &lt;<arg fmt="%s" index="2">addsub_c13097e33e</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1893</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdse</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd</arg>&quot; line <arg fmt="%d" index="2">340</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">clr</arg>&apos; of component &apos;<arg fmt="%s" index="4">xlclockdriver</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd</arg>&quot; line <arg fmt="%d" index="2">1883</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">fdre</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="unknown" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">fpga_dont_touch</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">op_mem_22_20(0)</arg>&gt; in unit &lt;<arg fmt="%s" index="2">inverter_e5b38cca3b</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">op_mem_22_20_front_din</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">op_mem_22_20_back&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">cast_internal_ip_25_3_lsh&lt;28:15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;3:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;31:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;31:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;31:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">unregy_join_6_1&lt;271:128&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rst_limit_join_44_1&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">count_reg_join_44_1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="unknown" >HDL ADVISOR - <arg fmt="%d" index="1">272</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">pipe_16_22</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;11:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;127:32&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;127:64&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;31:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;127:96&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;63:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">x&lt;95:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">din</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">load&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">up&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">din</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">load&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">up&lt;0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">clr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">prev_mode_93_22</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">op_mem_91_20_front_din</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">op_mem_91_20_back&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">internal_s_71_5_addsub&lt;2:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">cout_mem_92_22_front_din</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">cout_mem_92_22_back&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">internal_ce</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ce_vec</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">adc5g_char_b00_snapshot0_bram_data_out_net</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">adc5g_char_b00_asiaa_adc5g_sync_net</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">calc_add_entity_852e351bf6</arg>&gt;: instances &lt;<arg fmt="%s" index="2">const</arg>&gt;, &lt;<arg fmt="%s" index="3">manipulate</arg>&gt; of unit &lt;<arg fmt="%s" index="4">constant_963ed6358a</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">basic_ctrl_entity_ffd61ab2af</arg>&gt;: instances &lt;<arg fmt="%s" index="2">constant1</arg>&gt;, &lt;<arg fmt="%s" index="3">constant2</arg>&gt; of unit &lt;<arg fmt="%s" index="4">constant_6293007044</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">basic_ctrl_entity_ffd61ab2af</arg>&gt;: instances &lt;<arg fmt="%s" index="2">constant1</arg>&gt;, &lt;<arg fmt="%s" index="3">constant_x0</arg>&gt; of unit &lt;<arg fmt="%s" index="4">constant_6293007044</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">adc5g_char_b00</arg>&gt;: instances &lt;<arg fmt="%s" index="2">constant1</arg>&gt;, &lt;<arg fmt="%s" index="3">constant3</arg>&gt; of unit &lt;<arg fmt="%s" index="4">constant_6293007044</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">op_mem_46_20_0_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">shift_8b3da62244</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">pipe_16_22_0_128</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mux_ddf27bda35</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pipe_16_22_0_129&gt; &lt;pipe_16_22_0_130&gt; &lt;pipe_16_22_0_131&gt; &lt;pipe_16_22_0_132&gt; &lt;pipe_16_22_0_133&gt; &lt;pipe_16_22_0_134&gt; &lt;pipe_16_22_0_135&gt; &lt;pipe_16_22_0_264&gt; &lt;pipe_16_22_0_265&gt; &lt;pipe_16_22_0_266&gt; &lt;pipe_16_22_0_267&gt; &lt;pipe_16_22_0_268&gt; &lt;pipe_16_22_0_269&gt; &lt;pipe_16_22_0_270&gt; &lt;pipe_16_22_0_271&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">pipe_16_22_0_128</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mux_ddf27bda35</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="unknown" >All outputs of the instance &lt;<arg fmt="%s" index="1">mux1</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux_ddf27bda35</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">dram_munge_entity_10fb8332c8</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">dout_count/count_reg_20_23_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dram_munge_entity_10fb8332c8</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">delay3/op_mem_20_24_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">add_gen_entity_e815cd5710</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">adc5g_char_b00_cw</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

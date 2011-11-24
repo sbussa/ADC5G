@@ -1,0 +1,37 @@
+Release 11.3 ngcbuild L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: /export/home/blink/Xilinx/11.1/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc5vsx95t-1ff1136 adc5g_char_b00_cw adc5g_char_b00_cw_complete.ngc
+
+Reading NGO file
+"/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_
+b00_cw.ngc" ...
+Loading design module
+"/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/xlpersisten
+tdff.ngc"...
+Loading design module
+"/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/binary_coun
+ter_virtex5_11_0_dfcd34dfb8805954.ngc"...
+Loading design module
+"/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/binary_coun
+ter_virtex5_11_0_d1f139f5324467d6.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 298076 kilobytes
+
+Writing NGC file "adc5g_char_b00_cw_complete.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "adc5g_char_b00_cw_complete.blc"...

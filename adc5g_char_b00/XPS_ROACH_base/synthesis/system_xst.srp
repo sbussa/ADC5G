@@ -1,0 +1,612 @@
+Release 11.3 - xst L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </export/home/blink/Xilinx/11.1/EDK/virtex5/data/virtex5.acd> with local file </export/home/blink/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xst.prj"
+Verilog Include Directory          : {"/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/" "/export/home/blink/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/system.ngc"
+
+---- Source Options
+Top Module Name                    : system
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 10000
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" in Library work.
+Entity <system> compiled.
+Entity <system> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system> in library <work> (architecture <STRUCTURE>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> in library <work> (Architecture <STRUCTURE>).
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk90' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk180' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk270' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk_lock' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk2x' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk2x90' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk2x180' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'sys_clk2x270' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'dly_clk' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk90' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk180' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk270' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux1_clk' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux1_clk90' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux1_clk180' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux1_clk270' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk2x' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk2x90' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk2x180' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'aux0_clk2x270' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 545: Unconnected output port 'idelay_rdy' of component 'infrastructure_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_MRequest' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_beXfer' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_beAck' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_busLock' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_rdDBus' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_wrDBus' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_dwAck' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_dwXfer' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_fwAck' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_fwXfer' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_hwAck' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_hwXfer' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_pendReq' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 591: Unconnected output port 'OPB_toutSup' of component 'opb0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 705: Unconnected output port 'soft_reset' of component 'sys_block_inst_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_adc3wire_clk' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_adc3wire_data' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_adc3wire_spi_rst' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_modepin' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_dcm_reset' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_psclk' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_psen' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 726: Unconnected output port 'adc1_psincdec' of component 'opb_adc5g_controller_0_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 791: Unconnected output port 'adc_reset_o' of component 'adc5g_char_b00_asiaa_adc5g_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 791: Unconnected output port 'ctrl_clk90_out' of component 'adc5g_char_b00_asiaa_adc5g_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 791: Unconnected output port 'ctrl_clk180_out' of component 'adc5g_char_b00_asiaa_adc5g_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 791: Unconnected output port 'ctrl_clk270_out' of component 'adc5g_char_b00_asiaa_adc5g_wrapper'.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd" line 791: Unconnected output port 'ctrl_dcm_locked' of component 'adc5g_char_b00_asiaa_adc5g_wrapper'.
+Entity <system> analyzed. Unit <system> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <system>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/system.vhd".
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/infrastructure_inst_wrapper.ngc>.
+Reading core <../implementation/reset_block_inst_wrapper.ngc>.
+Reading core <../implementation/opb0_wrapper.ngc>.
+Reading core <../implementation/epb_opb_bridge_inst_wrapper.ngc>.
+Reading core <../implementation/epb_infrastructure_inst_wrapper.ngc>.
+Reading core <../implementation/sys_block_inst_wrapper.ngc>.
+Reading core <../implementation/opb_adc5g_controller_0_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_xsg_core_config_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_asiaa_adc5g_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_snapshot0_bram_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_snapshot0_ctrl_wrapper.ngc>.
+Reading core <../implementation/adc5g_char_b00_snapshot0_status_wrapper.ngc>.
+Loading core <infrastructure_inst_wrapper> for timing and area information for instance <infrastructure_inst>.
+Loading core <reset_block_inst_wrapper> for timing and area information for instance <reset_block_inst>.
+Loading core <opb0_wrapper> for timing and area information for instance <opb0>.
+Loading core <epb_opb_bridge_inst_wrapper> for timing and area information for instance <epb_opb_bridge_inst>.
+Loading core <epb_infrastructure_inst_wrapper> for timing and area information for instance <epb_infrastructure_inst>.
+Loading core <sys_block_inst_wrapper> for timing and area information for instance <sys_block_inst>.
+Loading core <opb_adc5g_controller_0_wrapper> for timing and area information for instance <opb_adc5g_controller_0>.
+Loading core <adc5g_char_b00_xsg_core_config_wrapper> for timing and area information for instance <adc5g_char_b00_XSG_core_config>.
+Loading core <adc5g_char_b00_asiaa_adc5g_wrapper> for timing and area information for instance <adc5g_char_b00_asiaa_adc5g>.
+Loading core <adc5g_char_b00_snapshot0_bram_ramblk_wrapper> for timing and area information for instance <adc5g_char_b00_snapshot0_bram_ramblk>.
+Loading core <adc5g_char_b00_snapshot0_bram_wrapper> for timing and area information for instance <adc5g_char_b00_snapshot0_bram>.
+Loading core <adc5g_char_b00_snapshot0_ctrl_wrapper> for timing and area information for instance <adc5g_char_b00_snapshot0_ctrl>.
+Loading core <adc5g_char_b00_snapshot0_status_wrapper> for timing and area information for instance <adc5g_char_b00_snapshot0_status>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/system.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 133
+
+Cell Usage :
+# BELS                             : 1568
+#      GND                         : 15
+#      INV                         : 53
+#      LUT1                        : 95
+#      LUT2                        : 243
+#      LUT3                        : 77
+#      LUT4                        : 155
+#      LUT5                        : 148
+#      LUT6                        : 475
+#      MUXCY                       : 163
+#      MUXF7                       : 2
+#      VCC                         : 13
+#      XORCY                       : 129
+# FlipFlops/Latches                : 1393
+#      FD                          : 312
+#      FD_1                        : 17
+#      FDC                         : 1
+#      FDCE                        : 64
+#      FDE                         : 280
+#      FDR                         : 140
+#      FDRE                        : 521
+#      FDRS                        : 6
+#      FDS                         : 30
+#      FDSE                        : 22
+# RAMS                             : 16
+#      RAMB36_EXP                  : 16
+# Shift Registers                  : 137
+#      SRL16                       : 1
+#      SRLC16E                     : 136
+# Clock Buffers                    : 19
+#      BUFG                        : 19
+# IO Buffers                       : 95
+#      IBUF                        : 34
+#      IBUFDS                      : 1
+#      IBUFDS_LVDS_25              : 32
+#      IBUFG                       : 1
+#      IBUFGDS                     : 5
+#      IOBUF                       : 17
+#      OBUF                        : 5
+# DCM_ADVs                         : 6
+#      DCM_ADV                     : 6
+# DSPs                             : 1
+#      DSP48E                      : 1
+# Others                           : 34
+#      IDELAYCTRL                  : 1
+#      ISERDES_NODELAY             : 32
+#      PLL_ADV                     : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1327  out of  58880     2%  
+ Number of Slice LUTs:                 1383  out of  58880     2%  
+    Number used as Logic:              1246  out of  58880     2%  
+    Number used as Memory:              137  out of  24320     0%  
+       Number used as SRL:              137
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2097
+   Number with an unused Flip Flop:     770  out of   2097    36%  
+   Number with an unused LUT:           714  out of   2097    34%  
+   Number of fully used LUT-FF pairs:   613  out of   2097    29%  
+   Number of unique control sets:        63
+
+IO Utilization: 
+ Number of IOs:                         133
+ Number of bonded IOBs:                  56  out of    640     8%  
+    IOB Flip Flops/Latches:              66
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               16  out of    244     6%  
+    Number using Block RAM only:         16
+ Number of BUFG/BUFGCTRLs:               19  out of     32    59%  
+ Number of DCM_ADVs:                      6  out of     12    50%  
+ Number of DSP48Es:                       1  out of    640     0%  
+ Number of PLL_ADVs:                      1  out of      6    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+------------------------------------------------------------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)                                                        | Load  |
+-----------------------------------------------------------------+------------------------------------------------------------------------------+-------+
+epb_clk_in                                                       | infrastructure_inst/dcm_epb_inst:CLK0                                        | 580   |
+adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1| BUFG                                                                         | 979   |
+N0                                                               | NONE(opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_ADC0)| 3     |
+adc0clk_p                                                        | IBUFGDS                                                                      | 1     |
+-----------------------------------------------------------------+------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                    | Buffer(FF name)                                                                                                                                                                       | Load  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/dbiterr(adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/XST_GND:G)| NONE(adc5g_char_b00_snapshot0_bram_ramblk/adc5g_char_b00_snapshot0_bram_ramblk/bram_inst/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP)| 128   |
+N0(XST_GND:G)                                                                                                                                                                                     | NONE(reset_block_inst/reset_block_inst/delay_counter_0)                                                                                                                               | 65    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 5.744ns (Maximum Frequency: 174.102MHz)
+   Minimum input arrival time before clock: 1.738ns
+   Maximum output required time after clock: 4.273ns
+   Maximum combinational path delay: 4.765ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'epb_clk_in'
+  Clock period: 5.744ns (frequency: 174.102MHz)
+  Total number of paths / destination ports: 50320 / 1464
+-------------------------------------------------------------------------
+Delay:               5.744ns (Levels of Logic = 11)
+  Source:            epb_opb_bridge_inst/epb_opb_bridge_inst/prev_cs_n (FF)
+  Destination:       adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/register_ready (FF)
+  Source Clock:      epb_clk_in rising +127
+  Destination Clock: epb_clk_in rising +127
+
+  Data Path: epb_opb_bridge_inst/epb_opb_bridge_inst/prev_cs_n to adc5g_char_b00_snapshot0_ctrl/adc5g_char_b00_snapshot0_ctrl/register_ready
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              65   0.471   0.922  epb_opb_bridge_inst/prev_cs_n (epb_opb_bridge_inst/prev_cs_n)
+     LUT4:I0->O           34   0.094   1.101  epb_opb_bridge_inst/M_ABus<23>1 (M_ABus<23>)
+     end scope: 'epb_opb_bridge_inst'
+     begin scope: 'opb0'
+     end scope: 'opb0'
+     begin scope: 'adc5g_char_b00_snapshot0_ctrl'
+     LUT5:I0->O            1   0.094   0.000  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_lut<0> (adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<0> (adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<1> (adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<2> (adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<3> (adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.254   1.069  adc5g_char_b00_snapshot0_ctrl/Mcompar_a_match_cmp_le0000_cy<4> (adc5g_char_b00_snapshot0_ctrl/a_match_cmp_le0000)
+     LUT6:I0->O           34   0.094   1.101  adc5g_char_b00_snapshot0_ctrl/a_match57 (adc5g_char_b00_snapshot0_ctrl/a_match)
+     LUT6:I1->O            1   0.094   0.000  adc5g_char_b00_snapshot0_ctrl/register_ready_rstpot (adc5g_char_b00_snapshot0_ctrl/register_ready_rstpot)
+     FD:D                     -0.018          adc5g_char_b00_snapshot0_ctrl/register_ready
+    ----------------------------------------
+    Total                      5.744ns (1.551ns logic, 4.193ns route)
+                                       (27.0% logic, 73.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1'
+  Clock period: 2.559ns (frequency: 390.778MHz)
+  Total number of paths / destination ports: 3029 / 1859
+-------------------------------------------------------------------------
+Delay:               2.559ns (Levels of Logic = 33)
+  Source:            sys_block_inst/sys_block_inst/fab_clk_counter_31 (FF)
+  Destination:       sys_block_inst/sys_block_inst/fab_clk_counter_0 (FF)
+  Source Clock:      adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1 rising
+  Destination Clock: adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1 rising
+
+  Data Path: sys_block_inst/sys_block_inst/fab_clk_counter_31 to sys_block_inst/sys_block_inst/fab_clk_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.471   0.341  sys_block_inst/fab_clk_counter_31 (sys_block_inst/fab_clk_counter<31>)
+     INV:I->O              1   0.238   0.000  sys_block_inst/Mcount_fab_clk_counter_lut<0>_INV_0 (sys_block_inst/Mcount_fab_clk_counter_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<0> (sys_block_inst/Mcount_fab_clk_counter_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<1> (sys_block_inst/Mcount_fab_clk_counter_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<2> (sys_block_inst/Mcount_fab_clk_counter_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<3> (sys_block_inst/Mcount_fab_clk_counter_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<4> (sys_block_inst/Mcount_fab_clk_counter_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<5> (sys_block_inst/Mcount_fab_clk_counter_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<6> (sys_block_inst/Mcount_fab_clk_counter_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<7> (sys_block_inst/Mcount_fab_clk_counter_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<8> (sys_block_inst/Mcount_fab_clk_counter_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<9> (sys_block_inst/Mcount_fab_clk_counter_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<10> (sys_block_inst/Mcount_fab_clk_counter_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<11> (sys_block_inst/Mcount_fab_clk_counter_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<12> (sys_block_inst/Mcount_fab_clk_counter_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<13> (sys_block_inst/Mcount_fab_clk_counter_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<14> (sys_block_inst/Mcount_fab_clk_counter_cy<14>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<15> (sys_block_inst/Mcount_fab_clk_counter_cy<15>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<16> (sys_block_inst/Mcount_fab_clk_counter_cy<16>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<17> (sys_block_inst/Mcount_fab_clk_counter_cy<17>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<18> (sys_block_inst/Mcount_fab_clk_counter_cy<18>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<19> (sys_block_inst/Mcount_fab_clk_counter_cy<19>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<20> (sys_block_inst/Mcount_fab_clk_counter_cy<20>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<21> (sys_block_inst/Mcount_fab_clk_counter_cy<21>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<22> (sys_block_inst/Mcount_fab_clk_counter_cy<22>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<23> (sys_block_inst/Mcount_fab_clk_counter_cy<23>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<24> (sys_block_inst/Mcount_fab_clk_counter_cy<24>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<25> (sys_block_inst/Mcount_fab_clk_counter_cy<25>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<26> (sys_block_inst/Mcount_fab_clk_counter_cy<26>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<27> (sys_block_inst/Mcount_fab_clk_counter_cy<27>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<28> (sys_block_inst/Mcount_fab_clk_counter_cy<28>)
+     MUXCY:CI->O           1   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<29> (sys_block_inst/Mcount_fab_clk_counter_cy<29>)
+     MUXCY:CI->O           0   0.026   0.000  sys_block_inst/Mcount_fab_clk_counter_cy<30> (sys_block_inst/Mcount_fab_clk_counter_cy<30>)
+     XORCY:CI->O           1   0.357   0.000  sys_block_inst/Mcount_fab_clk_counter_xor<31> (sys_block_inst/Result<31>)
+     FD:D                     -0.018          sys_block_inst/fab_clk_counter_0
+    ----------------------------------------
+    Total                      2.559ns (2.218ns logic, 0.341ns route)
+                                       (86.7% logic, 13.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'N0'
+  Clock period: 1.604ns (frequency: 623.441MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.604ns (Levels of Logic = 1)
+  Source:            opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_HALF (FF)
+  Destination:       opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_ADC0 (FF)
+  Source Clock:      N0 rising
+  Destination Clock: N0 rising
+
+  Data Path: opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_HALF to opb_adc5g_controller_0/opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_ADC0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.471   0.341  opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_HALF (opb_adc5g_controller_0/USER_LOGIC_I/adc1_toggle)
+     INV:I->O              2   0.238   0.341  opb_adc5g_controller_0/USER_LOGIC_I/not_adc1_toggle1_INV_0 (opb_adc5g_controller_0/USER_LOGIC_I/not_adc1_toggle)
+     FDE:CE                    0.213          opb_adc5g_controller_0/USER_LOGIC_I/FD_ADC1_ADC0
+    ----------------------------------------
+    Total                      1.604ns (0.922ns logic, 0.682ns route)
+                                       (57.5% logic, 42.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'epb_clk_in'
+  Total number of paths / destination ports: 35 / 35
+-------------------------------------------------------------------------
+Offset:              1.738ns (Levels of Logic = 3)
+  Source:            epb_cs_n (PAD)
+  Destination:       epb_opb_bridge_inst/epb_opb_bridge_inst/epb_rdy_reg (FF)
+  Destination Clock: epb_clk_in rising +127
+
+  Data Path: epb_cs_n to epb_opb_bridge_inst/epb_opb_bridge_inst/epb_rdy_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.818   0.347  epb_cs_n_IBUF (epb_cs_n_IBUF)
+     begin scope: 'epb_infrastructure_inst'
+     end scope: 'epb_infrastructure_inst'
+     begin scope: 'epb_opb_bridge_inst'
+     FDRS:R                    0.573          epb_opb_bridge_inst/epb_rdy_reg
+    ----------------------------------------
+    Total                      1.738ns (1.391ns logic, 0.347ns route)
+                                       (80.0% logic, 20.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1'
+  Total number of paths / destination ports: 640 / 640
+-------------------------------------------------------------------------
+Offset:              0.715ns (Levels of Logic = 2)
+  Source:            adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3:Q1 (PAD)
+  Destination:       adc5g_char_b00_XSG_core_config/adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0 (FF)
+  Destination Clock: adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/pll_clkout1 rising
+
+  Data Path: adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3:Q1 to adc5g_char_b00_XSG_core_config/adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ISERDES_NODELAY:Q1     5   0.000   0.000  adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3 (user_data_q7<0>)
+     end scope: 'adc5g_char_b00_asiaa_adc5g'
+     begin scope: 'adc5g_char_b00_XSG_core_config'
+     begin scope: 'adc5g_char_b00_XSG_core_config'
+     SRLC16E:D                 0.357          adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+    ----------------------------------------
+    Total                      0.715ns (0.715ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'epb_clk_in'
+  Total number of paths / destination ports: 75 / 21
+-------------------------------------------------------------------------
+Offset:              4.273ns (Levels of Logic = 4)
+  Source:            epb_opb_bridge_inst/epb_opb_bridge_inst/epb_r_w_n_reg (FF)
+  Destination:       epb_data<15> (PAD)
+  Source Clock:      epb_clk_in rising +127
+
+  Data Path: epb_opb_bridge_inst/epb_opb_bridge_inst/epb_r_w_n_reg to epb_data<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              38   0.471   0.838  epb_opb_bridge_inst/epb_r_w_n_reg (epb_opb_bridge_inst/epb_r_w_n_reg)
+     LUT3:I0->O           16   0.094   0.418  epb_opb_bridge_inst/epb_data_oe_n1 (epb_data_oe_n)
+     end scope: 'epb_opb_bridge_inst'
+     begin scope: 'epb_infrastructure_inst'
+     IOBUF:T->IO               2.452          epb_infrastructure_inst/iob_data[0] (epb_data_buf<0>)
+     end scope: 'epb_infrastructure_inst'
+    ----------------------------------------
+    Total                      4.273ns (3.017ns logic, 1.256ns route)
+                                       (70.6% logic, 29.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc0clk_p'
+  Total number of paths / destination ports: 33 / 33
+-------------------------------------------------------------------------
+Offset:              0.934ns (Levels of Logic = 0)
+  Source:            adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/reset (FF)
+  Destination:       adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/PLL:RST (PAD)
+  Source Clock:      adc0clk_p rising
+
+  Data Path: adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/reset to adc5g_char_b00_asiaa_adc5g/adc5g_char_b00_asiaa_adc5g/PLL:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             32   0.471   0.463  adc5g_char_b00_asiaa_adc5g/reset (adc_reset_o)
+    ISERDES_NODELAY:RST        0.000          adc5g_char_b00_asiaa_adc5g/iserdesx[7].iserdes0
+    ----------------------------------------
+    Total                      0.934ns (0.471ns logic, 0.463ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 68 / 35
+-------------------------------------------------------------------------
+Delay:               4.765ns (Levels of Logic = 7)
+  Source:            epb_cs_n (PAD)
+  Destination:       epb_rdy (PAD)
+
+  Data Path: epb_cs_n to epb_rdy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.818   0.347  epb_cs_n_IBUF (epb_cs_n_IBUF)
+     begin scope: 'epb_infrastructure_inst'
+     end scope: 'epb_infrastructure_inst'
+     begin scope: 'epb_opb_bridge_inst'
+     INV:I->O              1   0.238   0.336  epb_opb_bridge_inst/epb_rdy_oe1_INV_0 (epb_rdy_oe)
+     end scope: 'epb_opb_bridge_inst'
+     begin scope: 'epb_infrastructure_inst'
+     INV:I->O              1   0.238   0.336  epb_infrastructure_inst/iob_epb_rdy_not00001_INV_0 (epb_infrastructure_inst/iob_epb_rdy_not0000)
+     IOBUF:T->IO               2.452          epb_infrastructure_inst/iob_epb_rdy (epb_rdy_buf)
+     end scope: 'epb_infrastructure_inst'
+    ----------------------------------------
+    Total                      4.765ns (3.746ns logic, 1.019ns route)
+                                       (78.6% logic, 21.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.06 secs
+ 
+--> 
+
+
+Total memory usage is 470908 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   51 (   0 filtered)
+Number of infos    :   25 (   0 filtered)
+

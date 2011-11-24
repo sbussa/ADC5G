@@ -1,0 +1,20 @@
+Saved contents of this file to system_log.11.2 during revup to EDK 11.3.
+
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 11.3 Build EDK_LS3.57
+
+Xilinx EDK 11.3 Build EDK_LS3.57
+
+WARNING:EDK - IPNAME:opb_bram_if_cntlr INSTANCE:adc5g_char_b00_snapshot0_bram -
+   /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/system.mhs
+   line 335 - deprecated core for architecture 'virtex5sx'!
+
+XPS% Evaluating file run_xps.tcl
+No changes to be saved in MSS file
+Saved project XMP file

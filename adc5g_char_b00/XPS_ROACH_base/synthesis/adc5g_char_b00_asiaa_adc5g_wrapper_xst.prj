@@ -1,0 +1,2 @@
+VHDL adc5g_dmux1_interface_v1_00_a /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd
+vhdl work ../hdl/adc5g_char_b00_asiaa_adc5g_wrapper.vhd

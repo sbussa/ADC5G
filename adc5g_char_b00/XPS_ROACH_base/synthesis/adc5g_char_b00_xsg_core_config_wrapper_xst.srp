@@ -1,0 +1,331 @@
+Release 11.3 - xst L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </export/home/blink/Xilinx/11.1/EDK/virtex5/data/virtex5.acd> with local file </export/home/blink/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "adc5g_char_b00_xsg_core_config_wrapper_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/adc5g_char_b00_xsg_core_config_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : adc5g_char_b00_xsg_core_config_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/adc5g_char_b00_xsg_core_config_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_xsg_core_config_wrapper.vhd" in Library work.
+Entity <adc5g_char_b00_xsg_core_config_wrapper> compiled.
+Entity <adc5g_char_b00_xsg_core_config_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <adc5g_char_b00_xsg_core_config_wrapper> in library <work> (architecture <STRUCTURE>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <adc5g_char_b00_xsg_core_config_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <adc5g_char_b00_xsg_core_config_wrapper> analyzed. Unit <adc5g_char_b00_xsg_core_config_wrapper> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <adc5g_char_b00_xsg_core_config_wrapper>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_xsg_core_config_wrapper.vhd".
+Unit <adc5g_char_b00_xsg_core_config_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/adc5g_char_b00_xsg_core_config_wrapper/adc5g_char_b00.ngc>.
+Loading core <adc5g_char_b00> for timing and area information for instance <adc5g_char_b00_XSG_core_config>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <adc5g_char_b00_xsg_core_config_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> in Unit <adc5g_char_b00_XSG_core_config> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/adc5g_char_b00_xsg_core_config_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 463
+
+Cell Usage :
+# BELS                             : 20
+#      GND                         : 3
+#      INV                         : 2
+#      LUT2                        : 8
+#      LUT4                        : 1
+#      MUXCY                       : 1
+#      VCC                         : 3
+#      XORCY                       : 2
+# FlipFlops/Latches                : 692
+#      FD                          : 1
+#      FDE                         : 170
+#      FDRE                        : 519
+#      FDSE                        : 2
+# Shift Registers                  : 128
+#      SRLC16E                     : 128
+# DSPs                             : 1
+#      DSP48E                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             692  out of  58880     1%  
+ Number of Slice LUTs:                  139  out of  58880     0%  
+    Number used as Logic:                11  out of  58880     0%  
+    Number used as Memory:              128  out of  24320     0%  
+       Number used as SRL:              128
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    698
+   Number with an unused Flip Flop:       6  out of    698     0%  
+   Number with an unused LUT:           559  out of    698    80%  
+   Number of fully used LUT-FF pairs:   133  out of    698    19%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                         463
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of DSP48Es:                       1  out of    640     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                                     | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+clk                                | NONE(adc5g_char_b00_XSG_core_config/default_clock_driver_x0/xlclockdriver_1/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp)| 821   |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.423ns (Maximum Frequency: 412.712MHz)
+   Minimum input arrival time before clock: 0.357ns
+   Maximum output required time after clock: 0.471ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.423ns (frequency: 412.712MHz)
+  Total number of paths / destination ports: 1220 / 692
+-------------------------------------------------------------------------
+Delay:               2.423ns (Levels of Logic = 2)
+  Source:            adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 (FF)
+  Destination:       adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0/BU2/U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive (DSP)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 to adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0/BU2/U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.471   0.789  adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 (adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26(0))
+     LUT4:I0->O            2   0.094   0.341  adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical6/fully_2_1_bit1 (adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/core_ce)
+     begin scope: 'adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0'
+     begin scope: 'BU2'
+     DSP48E:CEP                0.728          U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive
+    ----------------------------------------
+    Total                      2.423ns (1.293ns logic, 1.130ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 643 / 643
+-------------------------------------------------------------------------
+Offset:              0.357ns (Levels of Logic = 1)
+  Source:            adc5g_char_b00_asiaa_adc5g_user_data_q7<0> (PAD)
+  Destination:       adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: adc5g_char_b00_asiaa_adc5g_user_data_q7<0> to adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'adc5g_char_b00_XSG_core_config'
+     SRLC16E:D                 0.357          adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+    ----------------------------------------
+    Total                      0.357ns (0.357ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 159 / 159
+-------------------------------------------------------------------------
+Offset:              0.471ns (Levels of Logic = 1)
+  Source:            adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 (FF)
+  Destination:       adc5g_char_b00_snapshot0_bram_we (PAD)
+  Source Clock:      clk rising
+
+  Data Path: adc5g_char_b00_XSG_core_config/adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 to adc5g_char_b00_snapshot0_bram_we
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              0   0.471   0.000  adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 (adc5g_char_b00_snapshot0_bram_we)
+     end scope: 'adc5g_char_b00_XSG_core_config'
+    ----------------------------------------
+    Total                      0.471ns (0.471ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.73 secs
+ 
+--> 
+
+
+Total memory usage is 455280 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   25 (   0 filtered)
+

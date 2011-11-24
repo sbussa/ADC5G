@@ -1,0 +1,2499 @@
+Release 11.3 - xst L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "xst_adc5g_char_b00.prj"
+Input Format                       : mixed
+
+---- Target Parameters
+Output File Name                   : "adc5g_char_b00_cw.ngc"
+Output Format                      : NGC
+Target Device                      : xc5vsx95t-1ff1136
+
+---- Source Options
+Entity Name                        : adc5g_char_b00_cw
+Top Module Name                    : adc5g_char_b00_cw
+Automatic Register Balancing       : no
+
+---- Target Options
+Add IO Buffers                     : NO
+Pack IO Registers into IOBs        : Auto
+
+---- General Options
+Keep Hierarchy                     : NO
+Bus Delimiter                      : ()
+Hierarchy Separator                : /
+
+---- Other Options
+report_timing_constraint_problems  : warning
+
+=========================================================================
+
+WARNING:Xst:29 - Optimization Effort not specified
+The following parameters have been added:
+Optimization Goal                  : SPEED
+
+=========================================================================
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" in Library work.
+Entity <binary_counter_virtex5_11_0_dfcd34dfb8805954> compiled.
+Entity <binary_counter_virtex5_11_0_dfcd34dfb8805954> (Architecture <binary_counter_virtex5_11_0_dfcd34dfb8805954_a>) compiled.
+Entity <binary_counter_virtex5_11_0_d1f139f5324467d6> compiled.
+Entity <binary_counter_virtex5_11_0_d1f139f5324467d6> (Architecture <binary_counter_virtex5_11_0_d1f139f5324467d6_a>) compiled.
+Package <conv_pkg> compiled.
+Package body <conv_pkg> compiled.
+Package <clock_pkg> compiled.
+Entity <srl17e> compiled.
+Entity <srl17e> (Architecture <structural>) compiled.
+Entity <synth_reg> compiled.
+Entity <synth_reg> (Architecture <structural>) compiled.
+Entity <synth_reg_reg> compiled.
+Entity <synth_reg_reg> (Architecture <behav>) compiled.
+Entity <single_reg_w_init> compiled.
+Entity <single_reg_w_init> (Architecture <structural>) compiled.
+Entity <synth_reg_w_init> compiled.
+Entity <synth_reg_w_init> (Architecture <structural>) compiled.
+Entity <xldelay> compiled.
+Entity <xldelay> (Architecture <behavior>) compiled.
+Entity <inverter_e5b38cca3b> compiled.
+Entity <inverter_e5b38cca3b> (Architecture <behavior>) compiled.
+Entity <logical_f6397bdee1> compiled.
+Entity <logical_f6397bdee1> (Architecture <behavior>) compiled.
+Entity <concat_1a6baff97c> compiled.
+Entity <concat_1a6baff97c> (Architecture <behavior>) compiled.
+Entity <convert_func_call> compiled.
+Entity <convert_func_call> (Architecture <behavior>) compiled.
+Entity <xlconvert> compiled.
+Entity <xlconvert> (Architecture <behavior>) compiled.
+Entity <delay_9f02caa990> compiled.
+Entity <delay_9f02caa990> (Architecture <behavior>) compiled.
+Entity <delay_ee0f706095> compiled.
+Entity <delay_ee0f706095> (Architecture <behavior>) compiled.
+Entity <inverter_6844eee868> compiled.
+Entity <inverter_6844eee868> (Architecture <behavior>) compiled.
+Entity <logical_799f62af22> compiled.
+Entity <logical_799f62af22> (Architecture <behavior>) compiled.
+Entity <logical_aacf6e1b0e> compiled.
+Entity <logical_aacf6e1b0e> (Architecture <behavior>) compiled.
+Entity <logical_954ee29728> compiled.
+Entity <logical_954ee29728> (Architecture <behavior>) compiled.
+Entity <xlregister> compiled.
+Entity <xlregister> (Architecture <behavior>) compiled.
+Entity <shift_8b3da62244> compiled.
+Entity <shift_8b3da62244> (Architecture <behavior>) compiled.
+Entity <xlcounter_free> compiled.
+Entity <xlcounter_free> (Architecture <behavior>) compiled.
+Entity <xlslice> compiled.
+Entity <xlslice> (Architecture <behavior>) compiled.
+Entity <concat_fd1ce36c4a> compiled.
+Entity <concat_fd1ce36c4a> (Architecture <behavior>) compiled.
+Entity <constant_91ef1678ca> compiled.
+Entity <constant_91ef1678ca> (Architecture <behavior>) compiled.
+Entity <mux_ddf27bda35> compiled.
+Entity <mux_ddf27bda35> (Architecture <behavior>) compiled.
+Entity <relational_5f1eb17108> compiled.
+Entity <relational_5f1eb17108> (Architecture <behavior>) compiled.
+Entity <constant_cda50df78a> compiled.
+Entity <constant_cda50df78a> (Architecture <behavior>) compiled.
+Entity <constant_a7e2bb9e12> compiled.
+Entity <constant_a7e2bb9e12> (Architecture <behavior>) compiled.
+Entity <constant_e8ddc079e9> compiled.
+Entity <constant_e8ddc079e9> (Architecture <behavior>) compiled.
+Entity <constant_3a9a3daeb9> compiled.
+Entity <constant_3a9a3daeb9> (Architecture <behavior>) compiled.
+Entity <mux_5441ad2d93> compiled.
+Entity <mux_5441ad2d93> (Architecture <behavior>) compiled.
+Entity <counter_caa2b01eef> compiled.
+Entity <counter_caa2b01eef> (Architecture <behavior>) compiled.
+Entity <constant_963ed6358a> compiled.
+Entity <constant_963ed6358a> (Architecture <behavior>) compiled.
+Entity <mux_d99e59b6d4> compiled.
+Entity <mux_d99e59b6d4> (Architecture <behavior>) compiled.
+Entity <logical_dfe2dded7f> compiled.
+Entity <logical_dfe2dded7f> (Architecture <behavior>) compiled.
+Entity <constant_6293007044> compiled.
+Entity <constant_6293007044> (Architecture <behavior>) compiled.
+Entity <logical_80f90b97d0> compiled.
+Entity <logical_80f90b97d0> (Architecture <behavior>) compiled.
+Entity <addsub_c13097e33e> compiled.
+Entity <addsub_c13097e33e> (Architecture <behavior>) compiled.
+Entity <concat_e2aa47955c> compiled.
+Entity <concat_e2aa47955c> (Architecture <behavior>) compiled.
+Entity <mux_c3e1ddb86e> compiled.
+Entity <mux_c3e1ddb86e> (Architecture <behavior>) compiled.
+Entity <concat_b11ec1c0d4> compiled.
+Entity <concat_b11ec1c0d4> (Architecture <behavior>) compiled.
+Entity <reinterpret_c5d4d59b73> compiled.
+Entity <reinterpret_c5d4d59b73> (Architecture <behavior>) compiled.
+Entity <reinterpret_28b9ecc6fc> compiled.
+Entity <reinterpret_28b9ecc6fc> (Architecture <behavior>) compiled.
+Entity <delay_87cc993d41> compiled.
+Entity <delay_87cc993d41> (Architecture <behavior>) compiled.
+Entity <concat_96b2f1cb93> compiled.
+Entity <concat_96b2f1cb93> (Architecture <behavior>) compiled.
+Entity <edge_detect_entity_20e9d1a092> compiled.
+Entity <edge_detect_entity_20e9d1a092> (Architecture <structural>) compiled.
+Entity <add_gen_entity_e815cd5710> compiled.
+Entity <add_gen_entity_e815cd5710> (Architecture <structural>) compiled.
+Entity <dram_munge_entity_10fb8332c8> compiled.
+Entity <dram_munge_entity_10fb8332c8> (Architecture <structural>) compiled.
+Entity <edge_detect_entity_e0ab79dfdf> compiled.
+Entity <edge_detect_entity_e0ab79dfdf> (Architecture <structural>) compiled.
+Entity <basic_ctrl_entity_ffd61ab2af> compiled.
+Entity <basic_ctrl_entity_ffd61ab2af> (Architecture <structural>) compiled.
+Entity <calc_add_entity_852e351bf6> compiled.
+Entity <calc_add_entity_852e351bf6> (Architecture <structural>) compiled.
+Entity <join_entity_f33272f3dc> compiled.
+Entity <join_entity_f33272f3dc> (Architecture <structural>) compiled.
+Entity <split_entity_7d7928af0b> compiled.
+Entity <split_entity_7d7928af0b> (Architecture <structural>) compiled.
+Entity <munge_in_entity_55031b9d05> compiled.
+Entity <munge_in_entity_55031b9d05> (Architecture <structural>) compiled.
+Entity <bram_entity_06393653e3> compiled.
+Entity <bram_entity_06393653e3> (Architecture <structural>) compiled.
+Entity <status_entity_01be868a58> compiled.
+Entity <status_entity_01be868a58> (Architecture <structural>) compiled.
+Entity <snapshot0_entity_33718b74d5> compiled.
+Entity <snapshot0_entity_33718b74d5> (Architecture <structural>) compiled.
+Entity <adc5g_char_b00> compiled.
+Entity <adc5g_char_b00> (Architecture <structural>) compiled.
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd" in Library work.
+Entity <xlclockdriver> compiled.
+Entity <xlclockdriver> (Architecture <behavior>) compiled.
+Entity <default_clock_driver> compiled.
+Entity <default_clock_driver> (Architecture <structural>) compiled.
+Entity <adc5g_char_b00_cw> compiled.
+Entity <adc5g_char_b00_cw> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <adc5g_char_b00_cw> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <adc5g_char_b00> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <default_clock_driver> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <concat_96b2f1cb93> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_6293007044> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <snapshot0_entity_33718b74d5> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <xlclockdriver> in library <work> (architecture <behavior>) with generics.
+	log_2_period = 1
+	period = 1
+	pipeline_regs = 5
+	use_bufg = 0
+
+Analyzing hierarchy for entity <delay_87cc993d41> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <add_gen_entity_e815cd5710> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <basic_ctrl_entity_ffd61ab2af> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <bram_entity_06393653e3> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <xlconvert> in library <work> (architecture <behavior>) with generics.
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 128
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 128
+	latency = 0
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <delay_ee0f706095> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_963ed6358a> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <reinterpret_28b9ecc6fc> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <status_entity_01be868a58> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <delay_9f02caa990> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <synth_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 0
+	init_value = "0000"
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <xlcounter_free> in library <work> (architecture <behavior>) with generics.
+	core_name0 = "binary_counter_virtex5_11_0_d1f139f5324467d6"
+	op_arith = 1
+	op_width = 17
+
+Analyzing hierarchy for entity <concat_1a6baff97c> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlconvert> in library <work> (architecture <behavior>) with generics.
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 15
+	latency = 0
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <xldelay> in library <work> (architecture <behavior>) with generics.
+	latency = 1
+	reg_retiming = 0
+	width = 16
+
+Analyzing hierarchy for entity <edge_detect_entity_20e9d1a092> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <inverter_6844eee868> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <inverter_e5b38cca3b> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <logical_799f62af22> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <logical_aacf6e1b0e> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <logical_954ee29728> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlregister> in library <work> (architecture <behavior>) with generics.
+	d_width = 1
+	init_value = "1"
+
+Analyzing hierarchy for entity <shift_8b3da62244> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 0
+	new_msb = 15
+	x_width = 17
+	y_width = 16
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 4
+	new_msb = 15
+	x_width = 17
+	y_width = 12
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 16
+	new_msb = 16
+	x_width = 17
+	y_width = 1
+
+Analyzing hierarchy for entity <constant_6293007044> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_6293007044> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_6293007044> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xldelay> in library <work> (architecture <behavior>) with generics.
+	latency = 1
+	reg_retiming = 0
+	width = 1
+
+Analyzing hierarchy for entity <dram_munge_entity_10fb8332c8> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <edge_detect_entity_e0ab79dfdf> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 0
+	new_msb = 0
+	x_width = 32
+	y_width = 1
+
+Analyzing hierarchy for entity <logical_80f90b97d0> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <mux_d99e59b6d4> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlregister> in library <work> (architecture <behavior>) with generics.
+	d_width = 1
+	init_value = "0"
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 1
+	new_msb = 1
+	x_width = 32
+	y_width = 1
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 2
+	new_msb = 2
+	x_width = 32
+	y_width = 1
+
+Analyzing hierarchy for entity <calc_add_entity_852e351bf6> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <xlconvert> in library <work> (architecture <behavior>) with generics.
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 12
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 12
+	latency = 0
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <xlconvert> in library <work> (architecture <behavior>) with generics.
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 1
+	latency = 0
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <munge_in_entity_55031b9d05> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <convert_func_call> in library <work> (architecture <behavior>) with generics.
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 128
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 128
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <xlconvert> in library <work> (architecture <behavior>) with generics.
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 32
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 32
+	latency = 0
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <single_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 0
+	init_value = "0000"
+	width = 1
+
+Analyzing hierarchy for entity <convert_func_call> in library <work> (architecture <behavior>) with generics.
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 15
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <synth_reg> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 16
+
+Analyzing hierarchy for entity <logical_f6397bdee1> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <synth_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "1"
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <synth_reg> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <constant_cda50df78a> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_a7e2bb9e12> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_e8ddc079e9> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_3a9a3daeb9> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <concat_fd1ce36c4a> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_91ef1678ca> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <mux_5441ad2d93> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xldelay> in library <work> (architecture <behavior>) with generics.
+	latency = 1
+	reg_retiming = 0
+	width = 1
+
+Analyzing hierarchy for entity <counter_caa2b01eef> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <constant_963ed6358a> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlcounter_free> in library <work> (architecture <behavior>) with generics.
+	core_name0 = "binary_counter_virtex5_11_0_dfcd34dfb8805954"
+	op_arith = 1
+	op_width = 2
+
+Analyzing hierarchy for entity <logical_799f62af22> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <logical_aacf6e1b0e> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <mux_ddf27bda35> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlregister> in library <work> (architecture <behavior>) with generics.
+	d_width = 128
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+
+Analyzing hierarchy for entity <relational_5f1eb17108> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <logical_dfe2dded7f> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <inverter_e5b38cca3b> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <synth_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "0"
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <addsub_c13097e33e> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <concat_e2aa47955c> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 0
+	new_msb = 0
+	x_width = 12
+	y_width = 1
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 1
+	new_msb = 11
+	x_width = 12
+	y_width = 11
+
+Analyzing hierarchy for entity <mux_c3e1ddb86e> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <convert_func_call> in library <work> (architecture <behavior>) with generics.
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 12
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 12
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <convert_func_call> in library <work> (architecture <behavior>) with generics.
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 1
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <join_entity_f33272f3dc> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <reinterpret_28b9ecc6fc> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <split_entity_7d7928af0b> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <convert_func_call> in library <work> (architecture <behavior>) with generics.
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 32
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 32
+	overflow = 1
+	quantization = 1
+
+Analyzing hierarchy for entity <srl17e> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 16
+
+Analyzing hierarchy for entity <single_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "1"
+	width = 1
+
+Analyzing hierarchy for entity <srl17e> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <synth_reg> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <synth_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	latency = 1
+	width = 128
+
+Analyzing hierarchy for entity <single_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "0"
+	width = 1
+
+Analyzing hierarchy for entity <synth_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "010"
+	latency = 1
+	width = 3
+
+Analyzing hierarchy for entity <concat_b11ec1c0d4> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <reinterpret_c5d4d59b73> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 0
+	new_msb = 31
+	x_width = 128
+	y_width = 32
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 32
+	new_msb = 63
+	x_width = 128
+	y_width = 32
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 64
+	new_msb = 95
+	x_width = 128
+	y_width = 32
+
+Analyzing hierarchy for entity <xlslice> in library <work> (architecture <behavior>) with generics.
+	new_lsb = 96
+	new_msb = 127
+	x_width = 128
+	y_width = 32
+
+Analyzing hierarchy for entity <srl17e> in library <work> (architecture <structural>) with generics.
+	latency = 1
+	width = 1
+
+Analyzing hierarchy for entity <single_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	width = 128
+
+Analyzing hierarchy for entity <single_reg_w_init> in library <work> (architecture <structural>) with generics.
+	init_index = 2
+	init_value = "010"
+	width = 3
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <adc5g_char_b00_cw> in library <work> (Architecture <structural>).
+    Set property "MAX_FANOUT = REDUCE" for signal <ce_1_sg_x8>.
+    Set property "syn_keep = TRUE" for signal <persistentdff_inst_q>.
+    Set user-defined property "KEEP =  TRUE" for signal <persistentdff_inst_q> (previous value was "KEEP soft").
+WARNING:Xst:37 - Detected unknown constraint/property "preserve_signal". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+    Set property "optimize_primitives = FALSE" for instance <persistentdff_inst> in unit <adc5g_char_b00_cw>.
+    Set property "syn_black_box = TRUE" for instance <persistentdff_inst> in unit <adc5g_char_b00_cw>.
+    Set property "syn_noprune = TRUE" for instance <persistentdff_inst> in unit <adc5g_char_b00_cw>.
+Entity <adc5g_char_b00_cw> analyzed. Unit <adc5g_char_b00_cw> generated.
+
+Analyzing Entity <adc5g_char_b00> in library <work> (Architecture <structural>).
+Entity <adc5g_char_b00> analyzed. Unit <adc5g_char_b00> generated.
+
+Analyzing Entity <concat_96b2f1cb93> in library <work> (Architecture <behavior>).
+Entity <concat_96b2f1cb93> analyzed. Unit <concat_96b2f1cb93> generated.
+
+Analyzing Entity <constant_6293007044> in library <work> (Architecture <behavior>).
+Entity <constant_6293007044> analyzed. Unit <constant_6293007044> generated.
+
+Analyzing Entity <snapshot0_entity_33718b74d5> in library <work> (Architecture <structural>).
+Entity <snapshot0_entity_33718b74d5> analyzed. Unit <snapshot0_entity_33718b74d5> generated.
+
+Analyzing Entity <delay_87cc993d41> in library <work> (Architecture <behavior>).
+Entity <delay_87cc993d41> analyzed. Unit <delay_87cc993d41> generated.
+
+Analyzing Entity <add_gen_entity_e815cd5710> in library <work> (Architecture <structural>).
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 3772: Unconnected input port 'up' of component 'xlcounter_free' is tied to default value.
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 3772: Unconnected input port 'load' of component 'xlcounter_free' is tied to default value.
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 3772: Unconnected input port 'din' of component 'xlcounter_free' is tied to default value.
+Entity <add_gen_entity_e815cd5710> analyzed. Unit <add_gen_entity_e815cd5710> generated.
+
+Analyzing generic Entity <xlcounter_free.1> in library <work> (Architecture <behavior>).
+	core_name0 = "binary_counter_virtex5_11_0_d1f139f5324467d6"
+	op_arith = 1
+	op_width = 17
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+    Set property "syn_black_box = TRUE" for instance <comp0.core_instance0> in unit <xlcounter_free.1>.
+Entity <xlcounter_free.1> analyzed. Unit <xlcounter_free.1> generated.
+
+Analyzing Entity <concat_1a6baff97c> in library <work> (Architecture <behavior>).
+Entity <concat_1a6baff97c> analyzed. Unit <concat_1a6baff97c> generated.
+
+Analyzing generic Entity <xlconvert.2> in library <work> (Architecture <behavior>).
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 15
+	latency = 0
+	overflow = 1
+	quantization = 1
+Entity <xlconvert.2> analyzed. Unit <xlconvert.2> generated.
+
+Analyzing generic Entity <convert_func_call.2> in library <work> (Architecture <behavior>).
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 15
+	overflow = 1
+	quantization = 1
+Entity <convert_func_call.2> analyzed. Unit <convert_func_call.2> generated.
+
+Analyzing generic Entity <xldelay.1> in library <work> (Architecture <behavior>).
+	latency = 1
+	reg_retiming = 0
+	width = 16
+Entity <xldelay.1> analyzed. Unit <xldelay.1> generated.
+
+Analyzing generic Entity <synth_reg.1> in library <work> (Architecture <structural>).
+	latency = 1
+	width = 16
+Entity <synth_reg.1> analyzed. Unit <synth_reg.1> generated.
+
+Analyzing generic Entity <srl17e.1> in library <work> (Architecture <structural>).
+	latency = 1
+	width = 16
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <srl17e.1> analyzed. Unit <srl17e.1> generated.
+
+Analyzing Entity <edge_detect_entity_20e9d1a092> in library <work> (Architecture <structural>).
+Entity <edge_detect_entity_20e9d1a092> analyzed. Unit <edge_detect_entity_20e9d1a092> generated.
+
+Analyzing generic Entity <xldelay.2> in library <work> (Architecture <behavior>).
+	latency = 1
+	reg_retiming = 0
+	width = 1
+Entity <xldelay.2> analyzed. Unit <xldelay.2> generated.
+
+Analyzing generic Entity <synth_reg.2> in library <work> (Architecture <structural>).
+	latency = 1
+	width = 1
+Entity <synth_reg.2> analyzed. Unit <synth_reg.2> generated.
+
+Analyzing generic Entity <srl17e.2> in library <work> (Architecture <structural>).
+	latency = 1
+	width = 1
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1663: Instantiating black box module <FDE>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <srl17e.2> analyzed. Unit <srl17e.2> generated.
+
+Analyzing Entity <logical_f6397bdee1> in library <work> (Architecture <behavior>).
+Entity <logical_f6397bdee1> analyzed. Unit <logical_f6397bdee1> generated.
+
+Analyzing Entity <inverter_6844eee868> in library <work> (Architecture <behavior>).
+Entity <inverter_6844eee868> analyzed. Unit <inverter_6844eee868> generated.
+
+Analyzing Entity <inverter_e5b38cca3b> in library <work> (Architecture <behavior>).
+Entity <inverter_e5b38cca3b> analyzed. Unit <inverter_e5b38cca3b> generated.
+
+Analyzing Entity <logical_799f62af22> in library <work> (Architecture <behavior>).
+Entity <logical_799f62af22> analyzed. Unit <logical_799f62af22> generated.
+
+Analyzing Entity <logical_aacf6e1b0e> in library <work> (Architecture <behavior>).
+Entity <logical_aacf6e1b0e> analyzed. Unit <logical_aacf6e1b0e> generated.
+
+Analyzing Entity <logical_954ee29728> in library <work> (Architecture <behavior>).
+Entity <logical_954ee29728> analyzed. Unit <logical_954ee29728> generated.
+
+Analyzing generic Entity <xlregister.1> in library <work> (Architecture <behavior>).
+	d_width = 1
+	init_value = "1"
+Entity <xlregister.1> analyzed. Unit <xlregister.1> generated.
+
+Analyzing generic Entity <synth_reg_w_init.2> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "1"
+	latency = 1
+	width = 1
+Entity <synth_reg_w_init.2> analyzed. Unit <synth_reg_w_init.2> generated.
+
+Analyzing generic Entity <single_reg_w_init.2> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "1"
+	width = 1
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1893: Instantiating black box module <fdse>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <single_reg_w_init.2> analyzed. Unit <single_reg_w_init.2> generated.
+
+Analyzing Entity <shift_8b3da62244> in library <work> (Architecture <behavior>).
+Entity <shift_8b3da62244> analyzed. Unit <shift_8b3da62244> generated.
+
+Analyzing generic Entity <xlslice.1> in library <work> (Architecture <behavior>).
+	new_lsb = 0
+	new_msb = 15
+	x_width = 17
+	y_width = 16
+Entity <xlslice.1> analyzed. Unit <xlslice.1> generated.
+
+Analyzing generic Entity <xlslice.2> in library <work> (Architecture <behavior>).
+	new_lsb = 4
+	new_msb = 15
+	x_width = 17
+	y_width = 12
+Entity <xlslice.2> analyzed. Unit <xlslice.2> generated.
+
+Analyzing generic Entity <xlslice.3> in library <work> (Architecture <behavior>).
+	new_lsb = 16
+	new_msb = 16
+	x_width = 17
+	y_width = 1
+Entity <xlslice.3> analyzed. Unit <xlslice.3> generated.
+
+Analyzing Entity <basic_ctrl_entity_ffd61ab2af> in library <work> (Architecture <structural>).
+Entity <basic_ctrl_entity_ffd61ab2af> analyzed. Unit <basic_ctrl_entity_ffd61ab2af> generated.
+
+Analyzing Entity <dram_munge_entity_10fb8332c8> in library <work> (Architecture <structural>).
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 4166: Unconnected input port 'up' of component 'xlcounter_free' is tied to default value.
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 4166: Unconnected input port 'load' of component 'xlcounter_free' is tied to default value.
+WARNING:Xst:752 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 4166: Unconnected input port 'din' of component 'xlcounter_free' is tied to default value.
+Entity <dram_munge_entity_10fb8332c8> analyzed. Unit <dram_munge_entity_10fb8332c8> generated.
+
+Analyzing Entity <constant_cda50df78a> in library <work> (Architecture <behavior>).
+Entity <constant_cda50df78a> analyzed. Unit <constant_cda50df78a> generated.
+
+Analyzing Entity <constant_a7e2bb9e12> in library <work> (Architecture <behavior>).
+Entity <constant_a7e2bb9e12> analyzed. Unit <constant_a7e2bb9e12> generated.
+
+Analyzing Entity <constant_e8ddc079e9> in library <work> (Architecture <behavior>).
+Entity <constant_e8ddc079e9> analyzed. Unit <constant_e8ddc079e9> generated.
+
+Analyzing Entity <constant_3a9a3daeb9> in library <work> (Architecture <behavior>).
+Entity <constant_3a9a3daeb9> analyzed. Unit <constant_3a9a3daeb9> generated.
+
+Analyzing Entity <concat_fd1ce36c4a> in library <work> (Architecture <behavior>).
+Entity <concat_fd1ce36c4a> analyzed. Unit <concat_fd1ce36c4a> generated.
+
+Analyzing Entity <constant_91ef1678ca> in library <work> (Architecture <behavior>).
+Entity <constant_91ef1678ca> analyzed. Unit <constant_91ef1678ca> generated.
+
+Analyzing Entity <mux_5441ad2d93> in library <work> (Architecture <behavior>).
+Entity <mux_5441ad2d93> analyzed. Unit <mux_5441ad2d93> generated.
+
+Analyzing Entity <counter_caa2b01eef> in library <work> (Architecture <behavior>).
+Entity <counter_caa2b01eef> analyzed. Unit <counter_caa2b01eef> generated.
+
+Analyzing generic Entity <xlcounter_free.2> in library <work> (Architecture <behavior>).
+	core_name0 = "binary_counter_virtex5_11_0_dfcd34dfb8805954"
+	op_arith = 1
+	op_width = 2
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+    Set property "syn_black_box = TRUE" for instance <comp1.core_instance1> in unit <xlcounter_free.2>.
+Entity <xlcounter_free.2> analyzed. Unit <xlcounter_free.2> generated.
+
+Analyzing Entity <mux_ddf27bda35> in library <work> (Architecture <behavior>).
+Entity <mux_ddf27bda35> analyzed. Unit <mux_ddf27bda35> generated.
+
+Analyzing generic Entity <xlregister.3> in library <work> (Architecture <behavior>).
+	d_width = 128
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+Entity <xlregister.3> analyzed. Unit <xlregister.3> generated.
+
+Analyzing generic Entity <synth_reg_w_init.4> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	latency = 1
+	width = 128
+Entity <synth_reg_w_init.4> analyzed. Unit <synth_reg_w_init.4> generated.
+
+Analyzing generic Entity <single_reg_w_init.4> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+	width = 128
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <single_reg_w_init.4> analyzed. Unit <single_reg_w_init.4> generated.
+
+Analyzing Entity <relational_5f1eb17108> in library <work> (Architecture <behavior>).
+Entity <relational_5f1eb17108> analyzed. Unit <relational_5f1eb17108> generated.
+
+Analyzing Entity <edge_detect_entity_e0ab79dfdf> in library <work> (Architecture <structural>).
+Entity <edge_detect_entity_e0ab79dfdf> analyzed. Unit <edge_detect_entity_e0ab79dfdf> generated.
+
+Analyzing Entity <logical_dfe2dded7f> in library <work> (Architecture <behavior>).
+Entity <logical_dfe2dded7f> analyzed. Unit <logical_dfe2dded7f> generated.
+
+Analyzing generic Entity <xlslice.4> in library <work> (Architecture <behavior>).
+	new_lsb = 0
+	new_msb = 0
+	x_width = 32
+	y_width = 1
+Entity <xlslice.4> analyzed. Unit <xlslice.4> generated.
+
+Analyzing Entity <logical_80f90b97d0> in library <work> (Architecture <behavior>).
+Entity <logical_80f90b97d0> analyzed. Unit <logical_80f90b97d0> generated.
+
+Analyzing Entity <mux_d99e59b6d4> in library <work> (Architecture <behavior>).
+Entity <mux_d99e59b6d4> analyzed. Unit <mux_d99e59b6d4> generated.
+
+Analyzing generic Entity <xlregister.2> in library <work> (Architecture <behavior>).
+	d_width = 1
+	init_value = "0"
+Entity <xlregister.2> analyzed. Unit <xlregister.2> generated.
+
+Analyzing generic Entity <synth_reg_w_init.3> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "0"
+	latency = 1
+	width = 1
+Entity <synth_reg_w_init.3> analyzed. Unit <synth_reg_w_init.3> generated.
+
+Analyzing generic Entity <single_reg_w_init.3> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "0"
+	width = 1
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <single_reg_w_init.3> analyzed. Unit <single_reg_w_init.3> generated.
+
+Analyzing generic Entity <xlslice.5> in library <work> (Architecture <behavior>).
+	new_lsb = 1
+	new_msb = 1
+	x_width = 32
+	y_width = 1
+Entity <xlslice.5> analyzed. Unit <xlslice.5> generated.
+
+Analyzing generic Entity <xlslice.6> in library <work> (Architecture <behavior>).
+	new_lsb = 2
+	new_msb = 2
+	x_width = 32
+	y_width = 1
+Entity <xlslice.6> analyzed. Unit <xlslice.6> generated.
+
+Analyzing Entity <bram_entity_06393653e3> in library <work> (Architecture <structural>).
+Entity <bram_entity_06393653e3> analyzed. Unit <bram_entity_06393653e3> generated.
+
+Analyzing Entity <calc_add_entity_852e351bf6> in library <work> (Architecture <structural>).
+Entity <calc_add_entity_852e351bf6> analyzed. Unit <calc_add_entity_852e351bf6> generated.
+
+Analyzing Entity <addsub_c13097e33e> in library <work> (Architecture <behavior>).
+INFO:Xst:2679 - Register <op_mem_91_20(0)> in unit <addsub_c13097e33e> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <cout_mem_92_22(0)> in unit <addsub_c13097e33e> has a constant value of X during circuit operation. The register is replaced by logic.
+Entity <addsub_c13097e33e> analyzed. Unit <addsub_c13097e33e> generated.
+
+Analyzing generic Entity <synth_reg_w_init.5> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "010"
+	latency = 1
+	width = 3
+Entity <synth_reg_w_init.5> analyzed. Unit <synth_reg_w_init.5> generated.
+
+Analyzing generic Entity <single_reg_w_init.5> in library <work> (Architecture <structural>).
+	init_index = 2
+	init_value = "010"
+	width = 3
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1893: Instantiating black box module <fdse>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <single_reg_w_init.5> analyzed. Unit <single_reg_w_init.5> generated.
+
+Analyzing Entity <concat_e2aa47955c> in library <work> (Architecture <behavior>).
+Entity <concat_e2aa47955c> analyzed. Unit <concat_e2aa47955c> generated.
+
+Analyzing generic Entity <xlslice.7> in library <work> (Architecture <behavior>).
+	new_lsb = 0
+	new_msb = 0
+	x_width = 12
+	y_width = 1
+Entity <xlslice.7> analyzed. Unit <xlslice.7> generated.
+
+Analyzing generic Entity <xlslice.8> in library <work> (Architecture <behavior>).
+	new_lsb = 1
+	new_msb = 11
+	x_width = 12
+	y_width = 11
+Entity <xlslice.8> analyzed. Unit <xlslice.8> generated.
+
+Analyzing Entity <mux_c3e1ddb86e> in library <work> (Architecture <behavior>).
+Entity <mux_c3e1ddb86e> analyzed. Unit <mux_c3e1ddb86e> generated.
+
+Analyzing generic Entity <xlconvert.3> in library <work> (Architecture <behavior>).
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 12
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 12
+	latency = 0
+	overflow = 1
+	quantization = 1
+Entity <xlconvert.3> analyzed. Unit <xlconvert.3> generated.
+
+Analyzing generic Entity <convert_func_call.3> in library <work> (Architecture <behavior>).
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 12
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 12
+	overflow = 1
+	quantization = 1
+Entity <convert_func_call.3> analyzed. Unit <convert_func_call.3> generated.
+
+Analyzing generic Entity <xlconvert.4> in library <work> (Architecture <behavior>).
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 1
+	latency = 0
+	overflow = 1
+	quantization = 1
+Entity <xlconvert.4> analyzed. Unit <xlconvert.4> generated.
+
+Analyzing generic Entity <convert_func_call.4> in library <work> (Architecture <behavior>).
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 1
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 1
+	overflow = 1
+	quantization = 1
+Entity <convert_func_call.4> analyzed. Unit <convert_func_call.4> generated.
+
+Analyzing Entity <munge_in_entity_55031b9d05> in library <work> (Architecture <structural>).
+Entity <munge_in_entity_55031b9d05> analyzed. Unit <munge_in_entity_55031b9d05> generated.
+
+Analyzing Entity <join_entity_f33272f3dc> in library <work> (Architecture <structural>).
+Entity <join_entity_f33272f3dc> analyzed. Unit <join_entity_f33272f3dc> generated.
+
+Analyzing Entity <concat_b11ec1c0d4> in library <work> (Architecture <behavior>).
+Entity <concat_b11ec1c0d4> analyzed. Unit <concat_b11ec1c0d4> generated.
+
+Analyzing Entity <reinterpret_c5d4d59b73> in library <work> (Architecture <behavior>).
+Entity <reinterpret_c5d4d59b73> analyzed. Unit <reinterpret_c5d4d59b73> generated.
+
+Analyzing Entity <split_entity_7d7928af0b> in library <work> (Architecture <structural>).
+Entity <split_entity_7d7928af0b> analyzed. Unit <split_entity_7d7928af0b> generated.
+
+Analyzing generic Entity <xlslice.9> in library <work> (Architecture <behavior>).
+	new_lsb = 0
+	new_msb = 31
+	x_width = 128
+	y_width = 32
+Entity <xlslice.9> analyzed. Unit <xlslice.9> generated.
+
+Analyzing generic Entity <xlslice.10> in library <work> (Architecture <behavior>).
+	new_lsb = 32
+	new_msb = 63
+	x_width = 128
+	y_width = 32
+Entity <xlslice.10> analyzed. Unit <xlslice.10> generated.
+
+Analyzing generic Entity <xlslice.11> in library <work> (Architecture <behavior>).
+	new_lsb = 64
+	new_msb = 95
+	x_width = 128
+	y_width = 32
+Entity <xlslice.11> analyzed. Unit <xlslice.11> generated.
+
+Analyzing generic Entity <xlslice.12> in library <work> (Architecture <behavior>).
+	new_lsb = 96
+	new_msb = 127
+	x_width = 128
+	y_width = 32
+Entity <xlslice.12> analyzed. Unit <xlslice.12> generated.
+
+Analyzing generic Entity <xlconvert.1> in library <work> (Architecture <behavior>).
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 128
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 128
+	latency = 0
+	overflow = 1
+	quantization = 1
+Entity <xlconvert.1> analyzed. Unit <xlconvert.1> generated.
+
+Analyzing generic Entity <convert_func_call.1> in library <work> (Architecture <behavior>).
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 128
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 128
+	overflow = 1
+	quantization = 1
+Entity <convert_func_call.1> analyzed. Unit <convert_func_call.1> generated.
+
+Analyzing Entity <delay_ee0f706095> in library <work> (Architecture <behavior>).
+Entity <delay_ee0f706095> analyzed. Unit <delay_ee0f706095> generated.
+
+Analyzing Entity <constant_963ed6358a> in library <work> (Architecture <behavior>).
+Entity <constant_963ed6358a> analyzed. Unit <constant_963ed6358a> generated.
+
+Analyzing Entity <reinterpret_28b9ecc6fc> in library <work> (Architecture <behavior>).
+Entity <reinterpret_28b9ecc6fc> analyzed. Unit <reinterpret_28b9ecc6fc> generated.
+
+Analyzing Entity <status_entity_01be868a58> in library <work> (Architecture <structural>).
+Entity <status_entity_01be868a58> analyzed. Unit <status_entity_01be868a58> generated.
+
+Analyzing generic Entity <xlconvert.5> in library <work> (Architecture <behavior>).
+	bool_conversion = 0
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 32
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 32
+	latency = 0
+	overflow = 1
+	quantization = 1
+Entity <xlconvert.5> analyzed. Unit <xlconvert.5> generated.
+
+Analyzing generic Entity <convert_func_call.5> in library <work> (Architecture <behavior>).
+	din_arith = 1
+	din_bin_pt = 0
+	din_width = 32
+	dout_arith = 1
+	dout_bin_pt = 0
+	dout_width = 32
+	overflow = 1
+	quantization = 1
+Entity <convert_func_call.5> analyzed. Unit <convert_func_call.5> generated.
+
+Analyzing Entity <delay_9f02caa990> in library <work> (Architecture <behavior>).
+Entity <delay_9f02caa990> analyzed. Unit <delay_9f02caa990> generated.
+
+Analyzing Entity <default_clock_driver> in library <work> (Architecture <structural>).
+    Set property "syn_noprune = TRUE" for unit <default_clock_driver>.
+WARNING:Xst:37 - Detected unknown constraint/property "dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:753 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd" line 340: Unconnected output port 'clr' of component 'xlclockdriver'.
+Entity <default_clock_driver> analyzed. Unit <default_clock_driver> generated.
+
+Analyzing generic Entity <xlclockdriver> in library <work> (Architecture <behavior>).
+	log_2_period = 1
+	period = 1
+	pipeline_regs = 5
+	use_bufg = 0
+    Set property "MAX_FANOUT = REDUCE" for signal <ce_vec>.
+Entity <xlclockdriver> analyzed. Unit <xlclockdriver> generated.
+
+Analyzing generic Entity <synth_reg_w_init.1> in library <work> (Architecture <structural>).
+	init_index = 0
+	init_value = "0000"
+	latency = 1
+	width = 1
+Entity <synth_reg_w_init.1> analyzed. Unit <synth_reg_w_init.1> generated.
+
+Analyzing generic Entity <single_reg_w_init.1> in library <work> (Architecture <structural>).
+	init_index = 0
+	init_value = "0000"
+	width = 1
+WARNING:Xst:2211 - "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd" line 1883: Instantiating black box module <fdre>.
+WARNING:Xst:37 - Detected unknown constraint/property "fpga_dont_touch". This constraint/property is not supported by the current software release and will be ignored.
+Entity <single_reg_w_init.1> analyzed. Unit <single_reg_w_init.1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <op_mem_22_20(0)> in unit <inverter_e5b38cca3b> has a constant value of X during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <concat_96b2f1cb93>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <concat_96b2f1cb93> synthesized.
+
+
+Synthesizing Unit <constant_6293007044>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_6293007044> synthesized.
+
+
+Synthesizing Unit <delay_87cc993d41>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 12-bit register for signal <op_mem_20_24<0>>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <delay_87cc993d41> synthesized.
+
+
+Synthesizing Unit <delay_ee0f706095>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 128-bit register for signal <op_mem_20_24<0>>.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+Unit <delay_ee0f706095> synthesized.
+
+
+Synthesizing Unit <constant_963ed6358a>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_963ed6358a> synthesized.
+
+
+Synthesizing Unit <reinterpret_28b9ecc6fc>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <reinterpret_28b9ecc6fc> synthesized.
+
+
+Synthesizing Unit <delay_9f02caa990>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <op_mem_20_24<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <delay_9f02caa990> synthesized.
+
+
+Synthesizing Unit <concat_1a6baff97c>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <concat_1a6baff97c> synthesized.
+
+
+Synthesizing Unit <inverter_6844eee868>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <op_mem_22_20<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <inverter_6844eee868> synthesized.
+
+
+Synthesizing Unit <inverter_e5b38cca3b>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <op_mem_22_20_front_din> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op_mem_22_20_back<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <inverter_e5b38cca3b> synthesized.
+
+
+Synthesizing Unit <logical_799f62af22>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <latency_pipe_5_26<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <logical_799f62af22> synthesized.
+
+
+Synthesizing Unit <logical_aacf6e1b0e>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <logical_aacf6e1b0e> synthesized.
+
+
+Synthesizing Unit <logical_954ee29728>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <logical_954ee29728> synthesized.
+
+
+Synthesizing Unit <shift_8b3da62244>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <cast_internal_ip_25_3_lsh<28:15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 15-bit register for signal <op_mem_46_20<0>>.
+    Summary:
+	inferred  15 D-type flip-flop(s).
+Unit <shift_8b3da62244> synthesized.
+
+
+Synthesizing Unit <xlslice_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_1> synthesized.
+
+
+Synthesizing Unit <xlslice_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <x<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_2> synthesized.
+
+
+Synthesizing Unit <xlslice_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_3> synthesized.
+
+
+Synthesizing Unit <convert_func_call_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <convert_func_call_2> synthesized.
+
+
+Synthesizing Unit <logical_f6397bdee1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit xor2 for signal <bit_2_27>.
+Unit <logical_f6397bdee1> synthesized.
+
+
+Synthesizing Unit <xlslice_4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<31:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_4> synthesized.
+
+
+Synthesizing Unit <logical_80f90b97d0>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <logical_80f90b97d0> synthesized.
+
+
+Synthesizing Unit <mux_d99e59b6d4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <mux_d99e59b6d4> synthesized.
+
+
+Synthesizing Unit <xlslice_5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<31:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <x<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_5> synthesized.
+
+
+Synthesizing Unit <xlslice_6>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<31:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <x<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_6> synthesized.
+
+
+Synthesizing Unit <constant_cda50df78a>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_cda50df78a> synthesized.
+
+
+Synthesizing Unit <constant_a7e2bb9e12>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_a7e2bb9e12> synthesized.
+
+
+Synthesizing Unit <constant_e8ddc079e9>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_e8ddc079e9> synthesized.
+
+
+Synthesizing Unit <constant_3a9a3daeb9>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_3a9a3daeb9> synthesized.
+
+
+Synthesizing Unit <concat_fd1ce36c4a>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <concat_fd1ce36c4a> synthesized.
+
+
+Synthesizing Unit <constant_91ef1678ca>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <constant_91ef1678ca> synthesized.
+
+
+Synthesizing Unit <mux_5441ad2d93>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <unregy_join_6_1<271:128>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <mux_5441ad2d93> synthesized.
+
+
+Synthesizing Unit <counter_caa2b01eef>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <rst_limit_join_44_1<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <count_reg_join_44_1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found T flip-flop for signal <count_reg_20_23<0>>.
+    Summary:
+	inferred   1 T-type flip-flop(s).
+Unit <counter_caa2b01eef> synthesized.
+
+
+Synthesizing Unit <mux_ddf27bda35>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 272-bit register for signal <pipe_16_22<0>>.
+INFO:Xst:738 - HDL ADVISOR - 272 flip-flops were inferred for signal <pipe_16_22>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 272 D-type flip-flop(s).
+Unit <mux_ddf27bda35> synthesized.
+
+
+Synthesizing Unit <relational_5f1eb17108>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 2-bit comparator equal for signal <result_12_3_rel<0>>.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <relational_5f1eb17108> synthesized.
+
+
+Synthesizing Unit <logical_dfe2dded7f>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <logical_dfe2dded7f> synthesized.
+
+
+Synthesizing Unit <concat_e2aa47955c>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <concat_e2aa47955c> synthesized.
+
+
+Synthesizing Unit <xlslice_7>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<11:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_7> synthesized.
+
+
+Synthesizing Unit <xlslice_8>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_8> synthesized.
+
+
+Synthesizing Unit <mux_c3e1ddb86e>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <mux_c3e1ddb86e> synthesized.
+
+
+Synthesizing Unit <convert_func_call_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <convert_func_call_3> synthesized.
+
+
+Synthesizing Unit <convert_func_call_4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <convert_func_call_4> synthesized.
+
+
+Synthesizing Unit <concat_b11ec1c0d4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <concat_b11ec1c0d4> synthesized.
+
+
+Synthesizing Unit <reinterpret_c5d4d59b73>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <reinterpret_c5d4d59b73> synthesized.
+
+
+Synthesizing Unit <xlslice_9>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<127:32>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_9> synthesized.
+
+
+Synthesizing Unit <xlslice_10>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<127:64>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <x<31:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_10> synthesized.
+
+
+Synthesizing Unit <xlslice_11>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<127:96>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <x<63:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_11> synthesized.
+
+
+Synthesizing Unit <xlslice_12>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <x<95:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlslice_12> synthesized.
+
+
+Synthesizing Unit <convert_func_call_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <convert_func_call_1> synthesized.
+
+
+Synthesizing Unit <convert_func_call_5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <convert_func_call_5> synthesized.
+
+
+Synthesizing Unit <xlconvert_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlconvert_1> synthesized.
+
+
+Synthesizing Unit <xlcounter_free_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <din> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <load<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <up<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlcounter_free_1> synthesized.
+
+
+Synthesizing Unit <xlconvert_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlconvert_2> synthesized.
+
+
+Synthesizing Unit <srl17e_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <srl17e_1> synthesized.
+
+
+Synthesizing Unit <srl17e_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <srl17e_2> synthesized.
+
+
+Synthesizing Unit <single_reg_w_init_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <single_reg_w_init_2> synthesized.
+
+
+Synthesizing Unit <xlcounter_free_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <din> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <load<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <up<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlcounter_free_2> synthesized.
+
+
+Synthesizing Unit <single_reg_w_init_4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <single_reg_w_init_4> synthesized.
+
+
+Synthesizing Unit <single_reg_w_init_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <single_reg_w_init_3> synthesized.
+
+
+Synthesizing Unit <xlconvert_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlconvert_3> synthesized.
+
+
+Synthesizing Unit <xlconvert_4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlconvert_4> synthesized.
+
+
+Synthesizing Unit <single_reg_w_init_5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <single_reg_w_init_5> synthesized.
+
+
+Synthesizing Unit <join_entity_f33272f3dc>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <join_entity_f33272f3dc> synthesized.
+
+
+Synthesizing Unit <split_entity_7d7928af0b>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <split_entity_7d7928af0b> synthesized.
+
+
+Synthesizing Unit <xlconvert_5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <xlconvert_5> synthesized.
+
+
+Synthesizing Unit <single_reg_w_init_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <single_reg_w_init_1> synthesized.
+
+
+Synthesizing Unit <status_entity_01be868a58>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <status_entity_01be868a58> synthesized.
+
+
+Synthesizing Unit <synth_reg_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <synth_reg_1> synthesized.
+
+
+Synthesizing Unit <synth_reg_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:647 - Input <clr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <synth_reg_2> synthesized.
+
+
+Synthesizing Unit <synth_reg_w_init_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <synth_reg_w_init_2> synthesized.
+
+
+Synthesizing Unit <synth_reg_w_init_4>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <synth_reg_w_init_4> synthesized.
+
+
+Synthesizing Unit <synth_reg_w_init_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <synth_reg_w_init_3> synthesized.
+
+
+Synthesizing Unit <munge_in_entity_55031b9d05>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <munge_in_entity_55031b9d05> synthesized.
+
+
+Synthesizing Unit <synth_reg_w_init_5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <synth_reg_w_init_5> synthesized.
+
+
+Synthesizing Unit <synth_reg_w_init_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <synth_reg_w_init_1> synthesized.
+
+
+Synthesizing Unit <xldelay_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <xldelay_1> synthesized.
+
+
+Synthesizing Unit <xlregister_1>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <xlregister_1> synthesized.
+
+
+Synthesizing Unit <xldelay_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <xldelay_2> synthesized.
+
+
+Synthesizing Unit <xlregister_2>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <xlregister_2> synthesized.
+
+
+Synthesizing Unit <xlregister_3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <xlregister_3> synthesized.
+
+
+Synthesizing Unit <addsub_c13097e33e>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:646 - Signal <prev_mode_93_22> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <op_mem_91_20_front_din> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <op_mem_91_20_back<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <internal_s_71_5_addsub<2:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cout_mem_92_22_front_din> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cout_mem_92_22_back<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 3-bit subtractor for signal <internal_s_71_5_addsub>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <addsub_c13097e33e> synthesized.
+
+
+Synthesizing Unit <xlclockdriver>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd".
+WARNING:Xst:1780 - Signal <internal_ce> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <ce_vec> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found T flip-flop for signal <clk_num<0>>.
+    Summary:
+	inferred   1 T-type flip-flop(s).
+Unit <xlclockdriver> synthesized.
+
+
+Synthesizing Unit <default_clock_driver>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd".
+Unit <default_clock_driver> synthesized.
+
+
+Synthesizing Unit <edge_detect_entity_20e9d1a092>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <edge_detect_entity_20e9d1a092> synthesized.
+
+
+Synthesizing Unit <dram_munge_entity_10fb8332c8>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <dram_munge_entity_10fb8332c8> synthesized.
+
+
+Synthesizing Unit <edge_detect_entity_e0ab79dfdf>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <edge_detect_entity_e0ab79dfdf> synthesized.
+
+
+Synthesizing Unit <calc_add_entity_852e351bf6>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <calc_add_entity_852e351bf6> synthesized.
+
+
+Synthesizing Unit <add_gen_entity_e815cd5710>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <add_gen_entity_e815cd5710> synthesized.
+
+
+Synthesizing Unit <basic_ctrl_entity_ffd61ab2af>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <basic_ctrl_entity_ffd61ab2af> synthesized.
+
+
+Synthesizing Unit <bram_entity_06393653e3>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <bram_entity_06393653e3> synthesized.
+
+
+Synthesizing Unit <snapshot0_entity_33718b74d5>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+Unit <snapshot0_entity_33718b74d5> synthesized.
+
+
+Synthesizing Unit <adc5g_char_b00>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00.vhd".
+WARNING:Xst:646 - Signal <adc5g_char_b00_snapshot0_bram_data_out_net> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <adc5g_char_b00_asiaa_adc5g_sync_net> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <adc5g_char_b00> synthesized.
+
+
+Synthesizing Unit <adc5g_char_b00_cw>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/sysgen/synth_model/adc5g_char_b00_cw.vhd".
+WARNING:Xst:647 - Input <ce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <adc5g_char_b00_cw> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 3-bit subtractor                                      : 1
+# Registers                                            : 12
+ 1-bit register                                        : 7
+ 12-bit register                                       : 1
+ 128-bit register                                      : 2
+ 15-bit register                                       : 1
+ 272-bit register                                      : 1
+# Toggle Registers                                     : 1
+ T flip-flop                                           : 1
+# Comparators                                          : 4
+ 2-bit comparator equal                                : 4
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <xlpersistentdff.ngc>.
+Reading core <binary_counter_virtex5_11_0_d1f139f5324467d6.ngc>.
+Reading core <binary_counter_virtex5_11_0_dfcd34dfb8805954.ngc>.
+Loading core <xlpersistentdff> for timing and area information for instance <persistentdff_inst>.
+Loading core <binary_counter_virtex5_11_0_d1f139f5324467d6> for timing and area information for instance <comp0.core_instance0>.
+Loading core <binary_counter_virtex5_11_0_dfcd34dfb8805954> for timing and area information for instance <comp1.core_instance1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 1-bit subtractor                                      : 1
+# Registers                                            : 1105
+ Flip-Flops                                            : 1105
+# Comparators                                          : 4
+ 2-bit comparator equal                                : 4
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <calc_add_entity_852e351bf6>: instances <const>, <manipulate> of unit <constant_963ed6358a> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <basic_ctrl_entity_ffd61ab2af>: instances <constant1>, <constant2> of unit <constant_6293007044> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <basic_ctrl_entity_ffd61ab2af>: instances <constant1>, <constant_x0> of unit <constant_6293007044> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <adc5g_char_b00>: instances <constant1>, <constant3> of unit <constant_6293007044> are equivalent, second instance is removed
+WARNING:Xst:1293 - FF/Latch <op_mem_46_20_0_0> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_1> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_2> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_3> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_4> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_5> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_6> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_7> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_8> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_9> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_10> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_11> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_12> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <op_mem_46_20_0_13> has a constant value of 0 in block <shift_8b3da62244>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <pipe_16_22_0_128> in Unit <mux_ddf27bda35> is equivalent to the following 15 FFs/Latches, which will be removed : <pipe_16_22_0_129> <pipe_16_22_0_130> <pipe_16_22_0_131> <pipe_16_22_0_132> <pipe_16_22_0_133> <pipe_16_22_0_134> <pipe_16_22_0_135> <pipe_16_22_0_264> <pipe_16_22_0_265> <pipe_16_22_0_266> <pipe_16_22_0_267> <pipe_16_22_0_268> <pipe_16_22_0_269> <pipe_16_22_0_270> <pipe_16_22_0_271> 
+WARNING:Xst:1293 - FF/Latch <pipe_16_22_0_128> has a constant value of 0 in block <mux_ddf27bda35>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:524 - All outputs of the instance <mux1> of the block <mux_ddf27bda35> are unconnected in block <dram_munge_entity_10fb8332c8>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:2677 - Node <dout_count/count_reg_20_23_0_0> of sequential type is unconnected in block <dram_munge_entity_10fb8332c8>.
+WARNING:Xst:1293 - FF/Latch <delay3/op_mem_20_24_0> has a constant value of 0 in block <add_gen_entity_e815cd5710>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <adc5g_char_b00_cw> ...
+
+Optimizing unit <delay_87cc993d41> ...
+
+Optimizing unit <delay_ee0f706095> ...
+
+Optimizing unit <mux_ddf27bda35> ...
+
+Optimizing unit <srl17e_1> ...
+
+Optimizing unit <single_reg_w_init_4> ...
+
+Optimizing unit <dram_munge_entity_10fb8332c8> ...
+
+Optimizing unit <add_gen_entity_e815cd5710> ...
+
+Optimizing unit <basic_ctrl_entity_ffd61ab2af> ...
+
+Optimizing unit <snapshot0_entity_33718b74d5> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_0> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_1> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_2> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_3> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_4> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_5> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_6> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_7> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_8> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_9> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_10> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[14].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <adc5g_char_b00_x0/snapshot0_33718b74d5/add_del/op_mem_20_24_0_11> in Unit <adc5g_char_b00_cw> is equivalent to the following FF/Latch : <adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[15].fde_used.u2> 
+
+Final Macro Processing ...
+
+Processing Unit <adc5g_char_b00_cw> :
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_0>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_1>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_2>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_3>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_4>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_5>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_6>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_7>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_8>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_9>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_10>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_11>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_12>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_13>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_14>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_15>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_16>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_17>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_18>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_19>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_20>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_21>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_22>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_23>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_24>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_25>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_26>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_27>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_28>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_29>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_30>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_31>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_32>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_33>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_34>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_35>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_36>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_37>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_38>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_39>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_40>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_41>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_42>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_43>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_44>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_45>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_46>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_47>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_48>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_49>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_50>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_51>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_52>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_53>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_54>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_55>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_56>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_57>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_58>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_59>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_60>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_61>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_62>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_63>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_64>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_65>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_66>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_67>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_68>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_69>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_70>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_71>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_72>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_73>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_74>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_75>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_76>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_77>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_78>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_79>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_80>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_81>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_82>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_83>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_84>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_85>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_86>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_87>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_88>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_89>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_90>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_91>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_92>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_93>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_94>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_95>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_96>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_97>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_98>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_99>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_100>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_101>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_102>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_103>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_104>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_105>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_106>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_107>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_108>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_109>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_110>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_111>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_112>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_113>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_114>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_115>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_116>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_117>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_118>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_119>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_120>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_121>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_122>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_123>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_124>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_125>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_126>.
+	Found 2-bit shift register for signal <adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/op_mem_20_24_0_127>.
+Unit <adc5g_char_b00_cw> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 561
+ Flip-Flops                                            : 561
+# Shift Registers                                      : 128
+ 2-bit shift register                                  : 128
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : adc5g_char_b00_cw.ngc
+Output Format                      : NGC
+Optimization Goal                  : SPEED
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 464
+
+Cell Usage :
+# BELS                             : 20
+#      GND                         : 3
+#      INV                         : 2
+#      LUT2                        : 8
+#      LUT4                        : 1
+#      MUXCY                       : 1
+#      VCC                         : 3
+#      XORCY                       : 2
+# FlipFlops/Latches                : 692
+#      FD                          : 1
+#      FDE                         : 170
+#      FDRE                        : 519
+#      FDSE                        : 2
+# Shift Registers                  : 128
+#      SRLC16E                     : 128
+# DSPs                             : 1
+#      DSP48E                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             692  out of  58880     1%  
+ Number of Slice LUTs:                  139  out of  58880     0%  
+    Number used as Logic:                11  out of  58880     0%  
+    Number used as Memory:              128  out of  24320     0%  
+       Number used as SRL:              128
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    694
+   Number with an unused Flip Flop:       2  out of    694     0%  
+   Number with an unused LUT:           555  out of    694    79%  
+   Number of fully used LUT-FF pairs:   137  out of    694    19%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                         464
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of DSP48Es:                       1  out of    640     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)     | Load  |
+-----------------------------------+---------------------------+-------+
+clk                                | NONE(persistentdff_inst/q)| 821   |
+-----------------------------------+---------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.423ns (Maximum Frequency: 412.712MHz)
+   Minimum input arrival time before clock: 0.357ns
+   Maximum output required time after clock: 0.471ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.423ns (frequency: 412.712MHz)
+  Total number of paths / destination ports: 1220 / 692
+-------------------------------------------------------------------------
+Delay:               2.423ns (Levels of Logic = 2)
+  Source:            adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 (FF)
+  Destination:       adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0/BU2/U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive (DSP)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 to adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0/BU2/U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.471   0.789  adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0 (adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical1/latency_pipe_5_26_0)
+     LUT4:I0->O            2   0.094   0.341  adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/logical6/fully_2_1_bit1 (adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/core_ce)
+     begin scope: 'adc5g_char_b00_x0/snapshot0_33718b74d5/add_gen_e815cd5710/add_gen/comp0.core_instance0'
+     begin scope: 'BU2'
+     DSP48E:CEP                0.728          U0/i_baseip.i_xbip_counter/i_dsp48.i_dsp/i_vx5.i_dsp48e_wrap/i_primitive
+    ----------------------------------------
+    Total                      2.423ns (1.293ns logic, 1.130ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 643 / 643
+-------------------------------------------------------------------------
+Offset:              0.357ns (Levels of Logic = 0)
+  Source:            adc5g_char_b00_asiaa_adc5g_user_data_q7(0) (PAD)
+  Destination:       adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: adc5g_char_b00_asiaa_adc5g_user_data_q7(0) to adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRLC16E:D                 0.357          adc5g_char_b00_x0/snapshot0_33718b74d5/dat_del/Mshreg_op_mem_20_24_0_0
+    ----------------------------------------
+    Total                      0.357ns (0.357ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 159 / 159
+-------------------------------------------------------------------------
+Offset:              0.471ns (Levels of Logic = 0)
+  Source:            adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 (FF)
+  Destination:       adc5g_char_b00_snapshot0_bram_we (PAD)
+  Source Clock:      clk rising
+
+  Data Path: adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 to adc5g_char_b00_snapshot0_bram_we
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              0   0.471   0.000  adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0 (adc5g_char_b00_x0/snapshot0_33718b74d5/we_del/op_mem_20_24_0)
+    ----------------------------------------
+    Total                      0.471ns (0.471ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.35 secs
+ 
+--> 
+
+
+Total memory usage is 480940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  473 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

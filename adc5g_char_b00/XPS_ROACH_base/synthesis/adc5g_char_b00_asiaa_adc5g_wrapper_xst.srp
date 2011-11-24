@@ -1,0 +1,705 @@
+Release 11.3 - xst L.57 (lin64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </export/home/blink/Xilinx/11.1/EDK/virtex5/data/virtex5.acd> with local file </export/home/blink/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "adc5g_char_b00_asiaa_adc5g_wrapper_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc5vsx95tff1136-1
+Output File Name                   : "../implementation/adc5g_char_b00_asiaa_adc5g_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : adc5g_char_b00_asiaa_adc5g_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation/adc5g_char_b00_asiaa_adc5g_wrapper}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" in Library adc5g_dmux1_interface_v1_00_a.
+Entity <adc5g_dmux1_interface> compiled.
+Entity <adc5g_dmux1_interface> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_asiaa_adc5g_wrapper.vhd" in Library work.
+Entity <adc5g_char_b00_asiaa_adc5g_wrapper> compiled.
+Entity <adc5g_char_b00_asiaa_adc5g_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <adc5g_char_b00_asiaa_adc5g_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for entity <adc5g_dmux1_interface> in library <adc5g_dmux1_interface_v1_00_a> (architecture <behavioral>) with generics.
+	adc_bit_width = 8
+	clkin_period = 2.666700
+	mode = 0
+	pll_d = 1
+	pll_m = 2
+	pll_o0 = 2
+	pll_o1 = 4
+	use_adc0 = 1
+	use_adc1 = 0
+	using_cntl = 1
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <adc5g_char_b00_asiaa_adc5g_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <adc5g_char_b00_asiaa_adc5g_wrapper> analyzed. Unit <adc5g_char_b00_asiaa_adc5g_wrapper> generated.
+
+Analyzing generic Entity <adc5g_dmux1_interface> in library <adc5g_dmux1_interface_v1_00_a> (Architecture <behavioral>).
+	adc_bit_width = 8
+	clkin_period = 2.666700
+	mode = 0
+	pll_d = 1
+	pll_m = 2
+	pll_o0 = 2
+	pll_o1 = 4
+	use_adc0 = 1
+	use_adc1 = 0
+	using_cntl = 1
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CBUF0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DIFF_TERM =  TRUE" for instance <CBUF0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CBUF0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CBUF0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <CBUF0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CBUF1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DIFF_TERM =  TRUE" for instance <CBUF1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CBUF1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CBUF1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "IOSTANDARD =  LVDS_25" for instance <CBUF1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BANDWIDTH =  OPTIMIZED" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKFBOUT_MULT =  2" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKFBOUT_PHASE =  0.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKIN_PERIOD =  2.6667000000000001" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT0_DIVIDE =  2" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT0_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT0_PHASE =  0.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT1_DIVIDE =  4" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT1_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT1_PHASE =  0.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT2_DIVIDE =  4" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT2_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT2_PHASE =  90.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT3_DIVIDE =  4" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT3_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT3_PHASE =  180.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT4_DIVIDE =  4" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT4_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT4_PHASE =  270.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT5_DIVIDE =  1" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT5_DUTY_CYCLE =  0.5000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLKOUT5_PHASE =  0.0000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "CLK_FEEDBACK =  CLKFBOUT" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "COMPENSATION =  SYSTEM_SYNCHRONOUS" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DIVCLK_DIVIDE =  1" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "REF_JITTER =  0.1000000000000000" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "RESET_ON_LOSS_OF_LOCK =  FALSE" for instance <PLL> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[7].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[7].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[7].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[7].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[6].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[6].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[6].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[6].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[5].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[5].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[5].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[5].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[4].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[4].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[4].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[4].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[3].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[3].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[3].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[3].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[2].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[2].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[2].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[2].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[1].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[1].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[1].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[1].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[0].iserdes0> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[0].iserdes1> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[0].iserdes2> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "BITSLIP_ENABLE =  TRUE" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_RATE =  DDR" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "DATA_WIDTH =  4" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q1 =  0" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q2 =  0" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q3 =  0" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INIT_Q4 =  0" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "INTERFACE_TYPE =  NETWORKING" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "NUM_CE =  2" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+    Set user-defined property "SERDES_MODE =  MASTER" for instance <iserdesx[0].iserdes3> in unit <adc5g_dmux1_interface>.
+Entity <adc5g_dmux1_interface> analyzed. Unit <adc5g_dmux1_interface> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <adc5g_dmux1_interface>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd".
+WARNING:Xst:1305 - Output <dcm_psdone> is never assigned. Tied to value 0.
+WARNING:Xst:647 - Input <dcm_psen> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dcm_psincdec> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ctrl_clk_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dcm_psclk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <dcm_reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <reset>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <adc5g_dmux1_interface> synthesized.
+
+
+Synthesizing Unit <adc5g_char_b00_asiaa_adc5g_wrapper>.
+    Related source file is "/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/hdl/adc5g_char_b00_asiaa_adc5g_wrapper.vhd".
+Unit <adc5g_char_b00_asiaa_adc5g_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance PLL in unit adc5g_dmux1_interface of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <adc5g_char_b00_asiaa_adc5g_wrapper> ...
+
+Optimizing unit <adc5g_dmux1_interface> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/adc5g_char_b00_asiaa_adc5g_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 210
+
+Cell Usage :
+# BELS                             : 4
+#      GND                         : 1
+#      INV                         : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 1
+#      FDR                         : 1
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 34
+#      IBUFDS_LVDS_25              : 32
+#      IBUFGDS                     : 2
+# Others                           : 33
+#      ISERDES_NODELAY             : 32
+#      PLL_ADV                     : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vsx95tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               1  out of  58880     0%  
+ Number of Slice LUTs:                    2  out of  58880     0%  
+    Number used as Logic:                 2  out of  58880     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      3
+   Number with an unused Flip Flop:       2  out of      3    66%  
+   Number with an unused LUT:             1  out of      3    33%  
+   Number of fully used LUT-FF pairs:     0  out of      3     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                         210
+ Number of bonded IOBs:                 197  out of    640    30%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                5  out of     32    15%  
+ Number of PLL_ADVs:                      1  out of      6    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+adc_clk_p_i                        | IBUFGDS                | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.147ns
+   Maximum output required time after clock: 0.934ns
+   Maximum combinational path delay: 1.391ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc_clk_p_i'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.147ns (Levels of Logic = 1)
+  Source:            ctrl_reset (PAD)
+  Destination:       adc5g_char_b00_asiaa_adc5g/reset (FF)
+  Destination Clock: adc_clk_p_i rising
+
+  Data Path: ctrl_reset to adc5g_char_b00_asiaa_adc5g/reset
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     INV:I->O              1   0.238   0.336  adc5g_char_b00_asiaa_adc5g/ctrl_reset_inv1_INV_0 (adc5g_char_b00_asiaa_adc5g/ctrl_reset_inv)
+     FDR:R                     0.573          adc5g_char_b00_asiaa_adc5g/reset
+    ----------------------------------------
+    Total                      1.147ns (0.811ns logic, 0.336ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc_clk_p_i'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              0.934ns (Levels of Logic = 0)
+  Source:            adc5g_char_b00_asiaa_adc5g/reset (FF)
+  Destination:       adc5g_char_b00_asiaa_adc5g/PLL:RST (PAD)
+  Source Clock:      adc_clk_p_i rising
+
+  Data Path: adc5g_char_b00_asiaa_adc5g/reset to adc5g_char_b00_asiaa_adc5g/PLL:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             32   0.471   0.463  adc5g_char_b00_asiaa_adc5g/reset (adc5g_char_b00_asiaa_adc5g/reset)
+    ISERDES_NODELAY:RST        0.000          adc5g_char_b00_asiaa_adc5g/iserdesx[7].iserdes0
+    ----------------------------------------
+    Total                      0.934ns (0.471ns logic, 0.463ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 198 / 164
+-------------------------------------------------------------------------
+Delay:               1.391ns (Levels of Logic = 1)
+  Source:            adc_data3_p_i<0> (PAD)
+  Destination:       adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3:D (PAD)
+
+  Data Path: adc_data3_p_i<0> to adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3:D
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFDS_LVDS_25:I->O    1   1.055   0.336  adc5g_char_b00_asiaa_adc5g/IBUFDS3[0].IBUF3 (adc5g_char_b00_asiaa_adc5g/data3<0>)
+    ISERDES_NODELAY:D          0.000          adc5g_char_b00_asiaa_adc5g/iserdesx[0].iserdes3
+    ----------------------------------------
+    Total                      1.391ns (1.055ns logic, 0.336ns route)
+                                       (75.8% logic, 24.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.19 secs
+ 
+--> 
+
+
+Total memory usage is 454244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

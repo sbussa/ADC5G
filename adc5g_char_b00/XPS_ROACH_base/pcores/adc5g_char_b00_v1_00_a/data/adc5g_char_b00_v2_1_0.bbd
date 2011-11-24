@@ -1,0 +1,11 @@
+#############################################################################
+##
+## IP Name  : adc5g_char_b00
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+Files
+adc5g_char_b00.ngc

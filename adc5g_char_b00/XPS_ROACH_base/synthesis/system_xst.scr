@@ -1,0 +1,14 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vsx95tff1136-1
+-top system
+-ifmt MIXED
+-ifn system_xst.prj
+-ofn ../implementation/system.ngc
+-hierarchy_separator /
+-iobuf YES
+-max_fanout 10000
+-sd {../implementation}
+-vlgincdir {"/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/" "/export/home/blink/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/" }

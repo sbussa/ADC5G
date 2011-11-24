@@ -1,0 +1,2 @@
+verilog opb_register_simulink2ppc_v1_00_a /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/opb_register_simulink2ppc_v1_00_a/hdl/verilog/opb_register_simulink2ppc.v
+verilog work ../hdl/adc5g_char_b00_snapshot0_status_wrapper.v

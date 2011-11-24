@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vsx95tff1136-1
+-top adc5g_char_b00_snapshot0_status_wrapper
+-ifmt MIXED
+-ifn adc5g_char_b00_snapshot0_status_wrapper_xst.prj
+-ofn ../implementation/adc5g_char_b00_snapshot0_status_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/adc5g_char_b00_snapshot0_status_wrapper}
+-vlgincdir {"/export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/" "/export/home/blink/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/" }

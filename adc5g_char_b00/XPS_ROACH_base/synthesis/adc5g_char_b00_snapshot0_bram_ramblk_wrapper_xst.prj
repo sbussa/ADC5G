@@ -1,0 +1,3 @@
+verilog bram_block_custom_v1_00_a /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v
+verilog bram_block_custom_v1_00_a /export/home/blink/scratch/models/adc5g_char_b00/XPS_ROACH_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v
+vhdl work ../hdl/adc5g_char_b00_snapshot0_bram_ramblk_wrapper.vhd
